@@ -1062,14 +1062,12 @@ var bindEventHandler = function() {
 
       $cardNum.val($cardNum.val().replace(/^([0-9]{4}-){3}[0-9]{5}$/, ''));
 
-      if (cNumber.length > 0) {
-        alert(cNumber);
-        var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
-        alert(cNumberWithHyphen);
-        $(this).val(cNumberWithHyphen);
-      } else {
-        $(this).val('');
-      }
+      // if (cNumber.length > 0) {
+      //   var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
+      //   $(this).val(cNumberWithHyphen);
+      // } else {
+      //   $(this).val('');
+      // }
 
       getCreditCardType(cNumber);
     }
@@ -1106,6 +1104,14 @@ var bindEventHandler = function() {
   //       }
   //     }
   //   }
+
+    var cNumber = $(this).val().split("-").join("");
+    if (cNumber.length > 0) {
+      var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
+      $(this).val(cNumberWithHyphen);
+    } else {
+      $(this).val('');
+    }
   });
 
   $document.on('blur', '#cardNumber', function(event) {
