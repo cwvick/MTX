@@ -1062,12 +1062,12 @@ var bindEventHandler = function() {
 
       $cardNum.val($cardNum.val().replace(/^([0-9]{4}-){3}[0-9]{5}$/, ''));
 
-      // if (cNumber.length > 0) {
-      //   var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
-      //   $(this).val(cNumberWithHyphen);
-      // } else {
-      //   $(this).val('');
-      // }
+      if (cNumber.length > 0 && event.keyCode != 229) {
+        var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
+        $(this).val(cNumberWithHyphen);
+      } else {
+        $(this).val('');
+      }
 
       getCreditCardType(cNumber);
     }
@@ -1086,8 +1086,7 @@ var bindEventHandler = function() {
     }
   });
 
-  $document.on('keydown', '#cardNumber', function(event) {
-    // alert(event.keyCode);
+  // $document.on('keydown', '#cardNumber', function(event) {
   //   if (event.keyCode != 229) {
   //     // Allow: backspace, delete, tab, escape, and enter
   //     if (event.keyCode == 46 || event.keyCode == 8 || event.keyCode == 9 || event.keyCode == 27 || event.keyCode == 13 ||
@@ -1104,16 +1103,7 @@ var bindEventHandler = function() {
   //       }
   //     }
   //   }
-    if (event.keyCode != 229) {
-      var cNumber = $(this).val().split("-").join("");
-      if (cNumber.length > 0) {
-        var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
-        $(this).val(cNumberWithHyphen);
-      } else {
-        $(this).val('');
-      }
-    }
-  });
+  // });
 
   $document.on('blur', '#cardNumber', function(event) {
     var cardType = getCreditCardType($("#cardNumber").val().split("-").join(""));
