@@ -1064,7 +1064,10 @@ var bindEventHandler = function() {
 
       if (cNumber.length > 0) {
         var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
-        $(this).val(cNumberWithHyphen);
+        setTimeout(function() {
+          $cardNum.val(cNumberWithHyphen);
+        }, 500);
+        
       } else {
         $(this).val('');
       }
