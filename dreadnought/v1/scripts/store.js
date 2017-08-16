@@ -1087,7 +1087,7 @@ var bindEventHandler = function() {
   });
 
   $document.on('keydown', '#cardNumber', function(event) {
-    alert(event.keyCode);
+    // alert(event.keyCode);
   //   if (event.keyCode != 229) {
   //     // Allow: backspace, delete, tab, escape, and enter
   //     if (event.keyCode == 46 || event.keyCode == 8 || event.keyCode == 9 || event.keyCode == 27 || event.keyCode == 13 ||
