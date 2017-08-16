@@ -1062,9 +1062,11 @@ var bindEventHandler = function() {
 
       $cardNum.val($cardNum.val().replace(/^([0-9]{4}-){3}[0-9]{5}$/, ''));
 
-      if (cNumber.length > 0 && event.keyCode != 229) {
-        var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
-        $(this).val(cNumberWithHyphen);
+      if (cNumber.length > 0) {
+        if (event.keyCode != 229) {
+          var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
+          $(this).val(cNumberWithHyphen);
+        }
       } else {
         $(this).val('');
       }
