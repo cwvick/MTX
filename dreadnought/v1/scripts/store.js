@@ -1058,7 +1058,7 @@ var bindEventHandler = function() {
       }
 
       // Replace all letters, symbols except numbers
-      cNumber = cNumber.replace(/\D+/g, '');
+      // cNumber = cNumber.replace(/\D+/g, '');
 
       $cardNum.val($cardNum.val().replace(/^([0-9]{4}-){3}[0-9]{5}$/, ''));
 
@@ -1086,8 +1086,7 @@ var bindEventHandler = function() {
     }
   });
 
-  $document.on('keydown', '#cardNumber', function(event) {
-    alert(event.keyCode);
+  // $document.on('keydown', '#cardNumber', function(event) {
   //   if (event.keyCode != 229) {
   //     // Allow: backspace, delete, tab, escape, and enter
   //     if (event.keyCode == 46 || event.keyCode == 8 || event.keyCode == 9 || event.keyCode == 27 || event.keyCode == 13 ||
@@ -1104,7 +1103,7 @@ var bindEventHandler = function() {
   //       }
   //     }
   //   }
-  });
+  // });
 
   $document.on('blur', '#cardNumber', function(event) {
     var cardType = getCreditCardType($("#cardNumber").val().split("-").join(""));
