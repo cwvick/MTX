@@ -1014,18 +1014,18 @@ var bindEventHandler = function() {
     }
   });
 
-  // $document.on('focus', '#cardNumber', function(event) {
-  //   event.preventDefault();
-  //   if ( $(this).val().indexOf("*") != -1 ) {
-  //     $('#cardNumber, #cardSecurityCode, #cardExpirationMonth, #cardExpirationYear, #nameOnCard').val('');
-  //     $(".save input[for=cpgCreditCard]").prop('checked', false).trigger('change');
-  //     $(this).parent().find('.lock-icon').hide();
+  $document.on('focus', '#cardNumber', function(event) {
+    event.preventDefault();
+    if ( $(this).val().indexOf("*") != -1 ) {
+      $('#cardNumber, #cardSecurityCode, #cardExpirationMonth, #cardExpirationYear, #nameOnCard').val('');
+      $(".save input[for=cpgCreditCard]").prop('checked', false).trigger('change');
+      $(this).parent().find('.lock-icon').hide();
 
-  //     if ( !$(this).rules().supportedCard ){
-  //       $(this).rules('add',{ supportedCard:true });
-  //     }
-  //   }
-  // });
+      if ( !$(this).rules().supportedCard ){
+        $(this).rules('add',{ supportedCard:true });
+      }
+    }
+  });
 
   // NOTE: keep for SEPA payment [Vick]
   $document.on('focus', '#sdd_bankRoutingCode, #sdd_bankAccountNumber', function(event) {
@@ -1063,7 +1063,9 @@ var bindEventHandler = function() {
       $cardNum.val($cardNum.val().replace(/^([0-9]{4}-){3}[0-9]{5}$/, ''));
 
       if (cNumber.length > 0) {
+        alert(cNumber);
         var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
+        alert(cNumberWithHyphen);
         $(this).val(cNumberWithHyphen);
       } else {
         $(this).val('');
@@ -1086,7 +1088,7 @@ var bindEventHandler = function() {
     }
   });
 
-  // $document.on('keydown', '#cardNumber', function(event) {
+  $document.on('keydown', '#cardNumber', function(event) {
     // alert(event.keyCode);
   //   if (event.keyCode != 229) {
   //     // Allow: backspace, delete, tab, escape, and enter
@@ -1104,19 +1106,19 @@ var bindEventHandler = function() {
   //       }
   //     }
   //   }
-  // });
+  });
 
-  // $document.on('blur', '#cardNumber', function(event) {
-  //   var cardType = getCreditCardType($("#cardNumber").val().split("-").join(""));
-  //   var creditCard = paymentTransactionParameters.creditCard;
-  //   var CCType = creditCard.type;
-  //   $('.paymentMethodBox .creditcard-type').removeClass('selectUI');
-  //   $('.paymentMethodBox .paymentName-img-selectedPart').empty();
-  //   if (cardType && cardType != 'unknown') {
-  //       $('.paymentMethodBox .creditcard-type.' + cardType.toLowerCase()).addClass('selectUI');
-  //       $('.paymentMethodBox .creditcard-type.' + cardType.toLowerCase() + ' .paymentName-img-selectedPart').html('<span class="icon ' + CCType.toLowerCase() + '-icon selectUI"></span>');   
-  //   } 
-  // });
+  $document.on('blur', '#cardNumber', function(event) {
+    var cardType = getCreditCardType($("#cardNumber").val().split("-").join(""));
+    var creditCard = paymentTransactionParameters.creditCard;
+    var CCType = creditCard.type;
+    $('.paymentMethodBox .creditcard-type').removeClass('selectUI');
+    $('.paymentMethodBox .paymentName-img-selectedPart').empty();
+    if (cardType && cardType != 'unknown') {
+        $('.paymentMethodBox .creditcard-type.' + cardType.toLowerCase()).addClass('selectUI');
+        $('.paymentMethodBox .creditcard-type.' + cardType.toLowerCase() + ' .paymentName-img-selectedPart').html('<span class="icon ' + CCType.toLowerCase() + '-icon selectUI"></span>');   
+    } 
+  });
 
   $document.on('blur', '#cardExpirationYear', function(event) {
     if ($(this).val().length === 2) {
