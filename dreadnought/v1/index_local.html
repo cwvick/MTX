@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>6ft-dreadnought V1</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script type="text/javascript">
+    var storeLanguage = 'en';
+    var allowedHostAPIOrigins = "http://localhost".split(',');
+    var unionpaySupportedCurrencies = "SGD,CNY".split(',');
+    var _localizations = {
+      'drog.default.error': 'Unfortunately an error has occurred. Please try again later!',
+      'drog.storeMaintenance.displayValue': 'Maintenance is going on.',
+      'drog.error.sessionexpire.alert': 'Your session has been expired.',
+      'drog.terms.not.accepted': 'Please check the box stating you agree to the Terms and Conditions of Digital River.',
+      'drog.error.validation.alert': 'There is an error! Please check your information.',
+      'drog.payment.followup.message': 'Your transaction failed. You may try to ',
+      'drog.payment.authorization.failed': 'Payment Authorization Failed ',
+      'drog.payment.externalinfo.message': 'You are being automatically redirected to {0}.<br/>If a new window does not open - go to <a class="overlay_paypallink launchbrowser" href="{1}">{2}</a>',
+      'drog.please.enter.a.valid.email.address': 'Please enter a valid email address!',
+      'drog.you.have.successfully.cancelled.your.transaction': 'You have successfully cancelled your transaction',
+      'drog.please.try.again.by.using.a.different.payment.method': 'Please try again with a different payment method',
+      'drog.transaction.progress.header': "Transaction in progress, please wait.",
+      'drog.store.new.paypal.billing.agreement': '${drog_store_new_paypal_billing_agreement}',
+      'drog.store.make.one.time.paypal.purchase': '${drog_store_make_one_time_paypal_purchase}',
+      'drog.store.use.another.payment.method': '${drog_store_use_another_payment_method}',
+      'drog.text.no.offers.available': 'No offers available',
+      'drog.text.payment.saveinfo': "Save payment details",
+      'drog.text.payment.saveinfo.paypal': "Save PayPal for future purchases",
+      'drog.this.field.may.not.contain.special.characters' : "This field may not contain special characters.",
+      'drog.numeric.characters.are.not.allowed.please.try.again': "Numeric characters are not allowed.",
+      'drog.your.credit.card.expiration.date.is.invalid': "Credit card expiration date is invalid.",
+      'drog.your.credit.card.is.invalid': "Your credit card is invalid.",
+      'drog.the.entry.of.your.zip.code.is.invalid.please.try.again' : "Your zip code is invalid.",
+      'drog.please.enter.a.valid.email.address' : "Please enter a valid email address!",
+      'drog.please.enter.a.valid.phone.number' : "Please enter a valid phone number",
+      'drog.error.enter.valid.account.number' : "Please enter a valid account number",
+      'drog.error.enter.valid.BIC.number' : "Please enter a valid BIC number",
+      'drog.overlay.message.store.loading': "Processing...Don't close this window.",
+      'drog.overlay.message.order.reviewing': "Processing...Don't close this window.",
+      'drog.select.bank.from.dropdown' : "Please select bank from dropdown",
+      'drog.overlay.message.payment.processing': "Processing payment... Don't close this window.",
+      'drog.address.phone.number' : 'Phone Number',
+      'drog.confirm.payment.price.tax' : 'TAX',
+      'drog.confirm.payment.price.vat' : 'VAT',
+      'drog.code.redeem.link' : 'https://integration.greybox.com/{0}/account-settings/redeem-code/?preset={1}',
+      'drog.back.store.link' : 'https://integration.greybox.com/store/{0}/',
+      'drog.sepa.mandate.please.agreeterms' : 'Please agree to the terms and conditions of the SEPA Direct Debit Mandate.',
+      'drog.sepa.direct.debit.mandate.type.recurring' : 'Recurrent payment',
+      'drog.sepa.mandate.description.sign1.recurrent' : 'By signing this mandate form, you authorise (A) the Creditor to send instructions to your bank to debit your account',
+      'drog.sepa.mandate.description.sign2.recurrent' : 'and (B) your bank to debit your account in accordance with the instructions from the Creditor.',
+      'drog.sepa.mandate.description.rights.recurrent' : 'As part of your rights, you are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited. Your rights are explained in a statement that you can obtain from your bank.',
+      'drog.sepa.direct.debit.mandate.type.one.off' : 'One-off payment',
+      'drog.sepa.mandate.description.sign1.one.off' : 'By signing this mandate form, you authorize (A) the Creditor to send one single direct debit instructions to your bank to debit your account',
+      'drog.sepa.mandate.description.sign2.one.off' : 'and (B) your bank to debit your account in accordance with the instructions from the Creditor.',
+      'drog.sepa.mandate.description.rights.one.off' : 'As part of your rights, you are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited. Your rights are explained in a statement that you can obtain from your bank.',
+      'drog.validation.message.required': 'This field is required.',
+      'drog.validation.message.email': 'Please enter a valid email.',
+      'drog.validation.message.number': 'Please enter a valid number.',
+      'drog.validation.message.maxlength': 'Please enter no more than {0} characters.',
+      'drog.validation.message.minlength': 'Please enter at least {0} characters.',
+      'drog.your.first.name.must.be.longer.than.one.character': 'Your First Name must be longer than 1 character',
+      'drog.your.last.name.must.be.longer.than.one.character': 'Your Last Name must be longer than 1 character'
+    };
+    var config = {
+      backendHost: 'cwvick.github.io/MTX/json/',
+      backendProtocol: '',
+      default_dataType: 'json',
+      debug: true,
+      auth: 'oauth_response.json',
+      meta: 'meta_response_20150616.json',
+      //usermeta: 'oauth_usermeta_6ft_06042016.json',
+      usermeta: 'oauth_usermeta_vive-160304.json',
+      //post_payment: 'post_payment_response.json',
+      post_payment: "payment_response_sdd.json",
+      offer: 'offer_response_hot.json?v=1',
+      offer_v3: 'offer_response_vive_20160222.json?v=1',    
+      //offer_v3: 'offer_response_6ft_20160526.json?v=1',    
+      payment_authorize: 'post_payment_authorize_response_20150602.json?v=1',
+      payment_capture: 'post_payment_authorize_vive_20160311.json'
+      //payment_capture: 'post_payment_capture_serialcode_20160408.json'
+    };
+
+    var internetExplorer9andLess = function() {
+      return /MSIE\s/.test(navigator.userAgent) && parseFloat(navigator.appVersion.split("MSIE")[1]) < 10;
+    };  
+  </script>
+  
+</head>
+<body class="en">
+  <div class="ajax-overlay" style="display:none;">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+    <div class="ajax-loader">Processing ... Don't close this window.</div>
+  </div>
+  <!-- START follow up overlay for PayPal PreApproved -->
+  <div class="follow-up-overlay">
+    <div class="follow-up-content modal"></div>
+  </div>
+  <!-- END follow up overlay for PayPal PreApproved -->
+  <!-- START store maintenance -->
+  <div class="modal maintenance-modal">
+    <div class="header">
+      <h1>Store Maintenance</h1>
+    </div>
+    <div class="content">
+      <div class="mainten-text"></div>      
+    </div>
+  </div>
+  <!-- END store maintenance -->
+  <!-- START session timeout -->
+  <div class="modal session-expire-modal">
+    <div class="content">
+      <div class="expire-text"></div>     
+    </div>
+  </div>
+  <!-- END session timeout-->
+  <div class="container">
+    <!-- START progress bar -->
+    <ul class="progress-bar-list">
+      <li>
+        <div class="progress-box">
+          <div class="progress-num">1</div>
+          <div class="progress-text">SELECT PAYMENT</div>
+        </div>
+      </li>
+      <li>
+        <div class="progress-box">
+          <div class="progress-num">2</div>
+          <div class="progress-text">PAYMENT CONFIRMATION</div>
+        </div>
+      </li>
+      <li>
+        <div class="progress-box">
+          <div class="progress-num">3</div>
+          <div class="progress-text">ORDER COMPLETE</div>
+        </div>
+      </li>
+    </ul>
+    <!-- END progress bar -->
+    <!--START error message-->
+    <div class="error-popup">
+      <div class="error-text"></div>
+    </div>
+    <!-- END error message-->
+    <!-- START purchase-summary-modal-->
+    <div class="modal purchase-summary-modal">  
+      <div class="column item-info shopping-cart pure-g">
+      <div class="item column middle-narrow-column pure-u-md-6-24 pure-u-1">
+          <h1>Item</h1>
+          <div class="description">
+            <span class="cart-product-name"></span>
+          </div>
+        </div><div class="details column wide-column pure-u-md-11-24 pure-u-1">
+          <h1>Details</h1>
+          <div class="cart-product-description description">         
+          </div>  
+        </div>
+        <div class="cart-summary-table column wide-column pure-u-md-7-24 pure-u-1">
+          <h1>Price</h1>
+          <div id="firstTotal" class="description cart-subTotal">            
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="content">
+        <form id="payment-form" action="" method="post" class="column payment-form">
+          <div class="personal-details column left-column">
+            <h1>BILLING INFORMATION</h1>
+            <div class="spacing"></div>
+            <div class="column">
+              <label for="firstname">
+                First name
+              </label>
+              <input
+                type="text"
+                class="field xxlarge-field"
+                name="firstname"
+                id="firstname"
+                placeholder="First name"
+                value=""> 
+            </div> 
+            <div class="column">
+              <label for="lastname">
+                Last name
+              </label>
+              <input
+                type="text"
+                class="field xxlarge-field"
+                name="lastname"
+                id="lastname"
+                placeholder="Last name"
+                value="">               
+            </div>
+            <div class="column">
+              <label for="address">
+                address 1
+              </label>            
+              <input
+                type="text"
+                class="field xxlarge-field"
+                id="address"
+                name="address"
+                placeholder="Street address"
+                value="">
+            </div>
+            <div class="column">      
+              <label for="address">
+                address 2
+              </label> 
+              <input
+                type="text"
+                class="field xxlarge-field"
+                id="addressExtra"
+                name="addressExtra"
+                placeholder="Apt., unit or suite"
+                value="">
+            </div> 
+            <div class="column cityState-column">
+              <div class="column left-column city-column">
+                <label for="city">
+                  City
+                </label>
+                <input
+                  type="text"
+                  class="field xxlarge-field"
+                  name="city"
+                  id="city"
+                  placeholder="City"
+                  value="">
+              </div>
+              <div class="column left-column state-column">
+                <label for="state">
+                  State/Province
+                </label>
+                <select
+                  class="field xxlarge-field"
+                  name="state"
+                  id="state">
+                </select>
+              </div> 
+            </div>
+            <div class="column zipCountry-column">
+              <div class="column left-column">
+                <label for="zipCode">
+                  zipcode
+                </label>
+                <input
+                  type="text"
+                  class="field xxlarge-field"
+                  name="zipCode"
+                  id="zipCode"
+                  placeholder="zipcode"
+                  value="">
+              </div>
+              <div class="column left-column countries-column">
+                <label for="country">
+                  Country
+                </label>
+                <select
+                  class="field xxlarge-field"
+                  name="country"
+                  id="country">
+                </select>
+              </div> 
+            </div>
+            <div class="column">
+              <label for="email">
+                email address
+              </label>
+              <input
+                type="email"
+                class="field xxlarge-field"
+                name="email"
+                id="email"
+                placeholder="email address"
+                value=""> 
+            </div>                
+          </div>
+          <div class="select-payment column right-column">
+            <h1>SELECT PAYMENT</h1>
+            <div class="spacing"></div>
+            <div class="column">
+              <label for="method-list">
+              Select payment
+              </label>  
+              <select id="method-list-hidden">
+                <option data-index="0" value="noPaymentChoice" for="noPaymentChoice" disabled>--------</option>    
+                <option data-index="1" value="cpgCreditCard" for="cpgCreditCard" data-name="Credit Card">Credit Card</option>
+                <option data-index="2" value="cpgPayPal" for="cpgPayPal" data-name="PayPal">PayPal</option>
+                <option data-index="3" value="cpgPayPalPreApproved" for="cpgPayPalPreApproved" data-name="PayPal">PayPalPreApproved</option>
+                <option data-index="4" value="cpgPaySafeCard" for="cpgPaySafeCard" data-name="Paysafe">Paysafe</option>
+                <option data-index="5" value="cpgIBP" for="cpgIBP" data-name="Online Banking">Online Banking</option>
+                <option data-index="6" value="cpgSEPADirectDebit" for="cpgSEPADirectDebit" data-name="SEPA DirectDebit">SEPA DirectDebit</option>                            
+              </select>
+              <select
+                class="field xxlarge-field"
+                id="method-list">
+              </select>
+            </div>
+            <div class="column credit-card paymentMethodBox" for="cpgCreditCard">
+              <div class="column creditcard-logo">
+                <div class="creditcard-type mastercard"> 
+                  <div class="paymentName-img-selectedPart mastercard"></div>            
+                </div> 
+                <div class="creditcard-type visa"> 
+                  <div class="paymentName-img-selectedPart visa"></div>            
+                </div>
+                <div class="creditcard-type amex"> 
+                  <div class="paymentName-img-selectedPart amex"></div>            
+                </div>
+                <div class="creditcard-type jcb"> 
+                  <div class="paymentName-img-selectedPart jcb"></div>            
+                </div>
+                <div class="creditcard-type diners"> 
+                  <div class="paymentName-img-selectedPart diners"></div>            
+                </div>
+                 <div class="creditcard-type discover"> 
+                  <div class="paymentName-img-selectedPart discover"></div>            
+                </div>
+                <div class="creditcard-type unionpay"> 
+                  <div class="paymentName-img-selectedPart unionpay"></div>            
+                </div>
+              </div>  
+              <div class="column">
+                <label for="cardNumber">
+                  Card number               
+                </label>
+                <input
+                  type="text"
+                  class="field xxlarge-field"
+                  name="cardNumber"
+                  id="cardNumber"
+                  placeholder="0000-0000-0000-0000"
+                  value="">
+              </div>
+              <div class="column">
+                <div class="column left-column">
+                  <label for="expiration">
+                    Month
+                  </label>                
+                  <select
+                    id="cardExpirationMonth"
+                    class="field xxlarge-field"
+                    name="cardExpirationMonth"
+                    value="">
+                    <option value="1">January</option><option value="2">February</option><option value="3">March</option><option value="4">April</option><option value="5">May</option><option value="6">June</option><option value="7">July</option><option value="8">August</option><option value="9">September</option><option value="10">October</option><option value="11">November</option><option value="12">December</option>     
+                  </select>        
+                </div>
+                <div class="column left-column">
+                  <label for="expiration">
+                    Year
+                  </label>                
+                  <select
+                    id="cardExpirationYear"
+                    class="field xxlarge-field"
+                    name="cardExpirationYear"
+                    value="">
+                  </select>
+                </div>
+              </div>
+              <div class="column">
+                <div class="column left-column">
+                  <label for="cardSecurityCode">
+                    Security code
+                  </label>
+                  <input
+                    type="text"
+                    class="field"
+                    name="cardSecurityCode"
+                    id="cardSecurityCode"
+                    placeholder="CVC"
+                    maxlength="3"
+                    value="">
+                </div>
+              </div>
+            </div>
+            <!-- B. Payment Form cpgPayPalPreApproved cpgPayPal cpgPaySafeCard-->
+            <div class="column cpgPayPal paymentMethodBox" for="cpgPayPalPreApproved cpgPayPal cpgPaySafeCard">
+              <label>
+                PAYING WITH <span class="payment-name"></span>
+              </label>
+              <div class="paymentName-img"></div>
+              <div class="column paysafe-refund-text">
+                Please be aware that we are unable to provide refunds for purchases made through paysafecard.
+              </div>
+              <div class="column">
+                Please note that this payment option will direct you to the payment provider's page for processing your order!
+              </div>
+            </div>
+            <!-- B. Payment Form IBP -->
+            <div class="column cpgIBP paymentMethodBox" for="cpgIBP">
+              <div id="dr_IBPForm" class="ibp-details">
+                <div class="column">
+                  <label>
+                    Online Banking
+                  </label>
+                </div>
+                <div class="paymentName-img"></div>
+                <div class="column">
+                  <label for="ibpBankName">
+                    Bank:
+                  </label>
+                  <div class="input">
+                    <select name="ibpBankName" id="ibpBankName" class="field xxlarge-field"></select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- E. Payment Form IBP -->
+            <!-- B. Payment Form SEPA Direct Debit -->
+            <div class="column cpgSEPADirectDebit paymentMethodBox" for="cpgSEPADirectDebit">
+              <div id="dr_SDDForm" class="sepa-details">
+                <div class="column">
+                  <label>
+                    Paying with SEPA Direct Debit
+                  </label>
+                </div>
+                <div class="paymentName-img"></div>
+                <div class="column">
+                  <label for="bankAccountNumber">
+                    Bank Account Number:
+                  </label>
+                  <div class="input">
+                    <input type="text" name="sdd_bankAccountNumber" id="sdd_bankAccountNumber" placeholder="${drog_sepa_header_accountnumber}" class="field xxlarge-field"/>
+                  </div>
+                </div>
+                <div class="column">
+                  <label for="bankRoutingCode">
+                    SWIFT BIC:
+                  </label>
+                  <div class="input">
+                    <input type="text" name="sdd_bankRoutingCode" id="sdd_bankRoutingCode" placeholder="${drog_sepa_header_swift}" class="field xxlarge-field"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- E. Payment Form SEPA Direct Debit -->
+          </div>
+          <fieldset class="column payment-buttons">
+            <button
+              type="button"
+              id="backStore"
+              class="button primary-button back backStore">
+              BACK TO SHOP
+            </button>
+            <button
+              type="submit"
+              id="goPaymentInfo"
+              class="button secondary-button next">
+              CONTINUE
+            </button>
+          </fieldset>
+        </form>    
+      </div>
+      <hr>
+    </div>
+    <!-- END purchase-summary-modal -->
+    <!-- START confirmation-modal -->
+    <div class="modal confirmation-modal">
+      <div class="column item-info shopping-cart pure-g">
+        <div class="item column middle-narrow-column pure-u-md-6-24 pure-u-1">
+          <h1>Item</h1>
+          <div class="description">
+            <span class="cart-product-name"></span>
+          </div>
+        </div>
+        <div class="details column wide-column pure-u-md-11-24 pure-u-1">
+          <h1>Details</h1>
+          <div class="cart-product-description description">         
+          </div>  
+        </div><div class="cart-summary-table column wide-column pure-u-md-7-24 pure-u-1">
+          <h1>Price</h1>
+          <div id="firstTotal" class="description cart-subTotal">            
+          </div>
+          <!-- <div class="spacing"></div>
+          <div class="column subtotal-part pure-g">
+            <div class="cart-subTotal column left-column pure-u-1-2">              
+            </div>
+            <div class="cart-subTotal-title column right-column pure-u-1-2">
+              SUB-TOTAL        
+            </div>           
+          </div> -->
+          <div class="column cart-vat-row pure-g">
+            <div class="cart-vat column left-column pure-u-1-2">             
+            </div>
+            <div class="cart-vat-title column right-column pure-u-1-2">
+              TAX         
+            </div>           
+          </div>
+          <hr>
+          <div class="column total-part pure-g">
+            <div class="cart-total column left-column pure-u-1-2">               
+            </div>
+            <div class="cart-Total-title  column right-column pure-u-1-2">
+              TOTAL        
+            </div>           
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="contents">
+        <div class="sddMandate content">
+          <form id="sddMandateForm" name="sddMandateForm" method="post" action="" class="column pure-g">
+            <div class="scroll pure-u-sm-1-2 pure-u-1">
+              <h1>SEPA Direct Debit Mandate</h1>
+              <h2>Creditor name: <span class="creditorCompanyInfo"></span></h2>
+              <h2>Creditor identifier: <span class="creditorCompanyId"></span></h2>
+              <h2>Mandate reference: <span class="mandateUniqueReference"></span></h2>
+              <p id="sign1Id"></p>
+              <p id="sign2Id"></p>
+              <p id="rightsId"></p>
+              <p>&nbsp;</p>
+              <h2>Name of the debtor: <span class="debtorName"></span></h2>
+              <h2>Street name and number: <span class="debtorAddress"></span></h2>
+              <h2>Postal code: <span class="debtorPostalCode"></span></h2>
+              <h2>City: <span class="debtorCity"></span></h2>
+              <h2>Country: <span class="debtorCountry"></span></h2>
+              <h2>Account number - IBAN: <span class="debtorIBAN"></span></h2>
+              <h2>SWIFT BIC: <span class="debtorBankBIC"></span></h2>
+              <h2>Type of payment: <span class="mandateType"></span></h2>
+              <h2>Date: <span class="mandateDate"></span></h2>
+            </div>
+            <div class="newinfo pure-u-sm-1-2 pure-u-1">
+              <span>Signature: </span><input type="text" name="signEmail" id="signEmail" class="field xlarge-field" placeholder="youremail">
+              <div id="cbox_AcceptSEPA">
+                <label for="agreeSEPA">
+                  <input id="agreeSEPA" type="checkbox" name="agreeSEPA" class="cb_icon">
+                  <span id="cbox_sepa_message">I have read and understand the terms and conditions of the SEPA Direct Debit Mandate and I agree to be bound by it</span>
+                </label>
+              </div>
+            </div>
+            <div class="returning pure-u-sm-1-2 pure-u-1" style="display: none;">
+              <p>Signature: <span class="mandateSignatureEmail"></span></p>
+              <p>You have read, understood and agreed to be bound by the terms and conditions of this SEPA Direct Debit Mandate</p>
+            </div>
+          </form>
+          <hr>
+        </div>
+        <div class="column payment-details-table pure-g">
+          <div class="billing-address column extra-narrow-column pure-u-md-4-24 pure-u-sm-1-3 pure-u-1">
+            <h2>Billing address</h2>
+            <div class="nameOnCard"></div>
+            <div class="billingAddress"></div>
+            <div class="email"> </div>         
+          </div>
+          <div class="billing-address column extra-narrow-column pure-u-md-4-24 pure-u-sm-1-3 pure-u-1">
+           <h2>PAYING WITH</h2>
+           <div class="payment-type"></div>
+           <div class="paymentName-img"></div>
+          </div>
+          <div class="column middle-narrow-column pure-u-md-5-24 pure-u-sm-1-3 pure-u-1">
+            <h2>ORDER NUMBER</h2>
+            <div class="paymentName-number"></div>
+            <div class="spacing"></div>
+            <h2>ORDER DATE</h2>
+            <div class="payment-date"></div>
+            <div class="spacing"></div>
+            <h2>DELIVERY METHOD</h2>
+            <div class="delivery-method"></div>
+            <div class="spacing"></div>
+          </div>
+          <div class="column pure-u-md-11-24 pure-u-sm-1-1 pure-u-1">
+            <fieldset class="terms-of-service">
+              <label for="tos">
+                <input
+                  id="tos"
+                  type="checkbox"
+                  name="tos"
+                  class="cb-hidden">
+                <span class="tos-message">By clicking &#39;Complete Order&#39;, you agree to the <a href="#" class="termsSales" target="_blank">Terms of State</a> and <a href="#" class="privacyPolicy" target="_blank">Privacy Policy </a></span>
+              </label>
+            </fieldset>
+            <fieldset class="confirmation-buttons">
+              <button
+                type="button"
+                id="backPaymentSelection"
+                class="button primary-button btn-edit">
+                BACK TO PAYMENT
+              </button>
+              <button
+                type="submit"
+                id="PayConfirm"
+                class="button secondary-button confirm next">
+                SUBMIT ORDER
+              </button>
+            </fieldset>      
+          </div>        
+        </div>
+      </div>
+      <hr>
+    </div>
+    <!-- END confirmation-modal-->
+    <!-- START thank-you-modal-->
+    <div class="modal thank-you-modal">
+      <div class="contents">
+        <div class="column thankyou-info">
+          <div class="column thankyou-text pure-g">
+            <div class="thankyou-text-left pure-u-md-1-2 pure-u-1">
+              Thank You for your recent purchase!  Your serial code(s) are listed below and have also been sent to the email address you provided.  If any of your purchases are gifts, please include the following instructions along with the serial code(s).
+              <div class="spacing"></div>
+              <div class="thankyou-text-right pure-u-md-1-2 pure-u-1 hidden-md">
+                <div class="thankyouText no-serialCode">
+                  A receipt and serial codes included with your purchase have been sent to the email address you provided. The email contains instructions on how to redeem your serial codes. If you have any questions or need assistance, please contact our <a href="#">Game Support Center</a>.
+                </div>
+                <div class="thankyouText with-serialCode pure-g">
+                  <span class="pure-u-13-24 serialCodeText">
+                    <span class="serialCodeVal"></span>
+                  </span>
+                  <span class="pure-u-11-24">
+                    <a
+                      href="#"
+                      id="code-redeem"
+                      class="button secondary-button code-redeem-link next"
+                      target="_blank">
+                      PLAY NOW
+                    </a>
+                  </span>
+                </div>
+                <div class="spacing"></div>
+              </div>
+              <div class="thankyou-next-step">
+                <h1>NEXT STEPS</h1>
+                <ul><li>Go to <a href="greybox.com/register">greybox.com/register</a></li><li>Log in to your account or create a new account</li><li>Follow the instructions to redeem your serial code(s)</li></ul>
+              </div>
+              <div class="spacing"></div>
+              <div class="thankyou-support-center">
+                If you have any questions or need assistance, please contact our <a href="#">Game Support Center</a>.
+              </div>
+            </div>
+            <div class="thankyou-text-right pure-u-md-1-2 pure-u-1 visible-inline-md">
+              <div class="thankyouText no-serialCode">
+                A receipt and serial codes included with your purchase have been sent to the email address you provided. The email contains instructions on how to redeem your serial codes. If you have any questions or need assistance, please contact our <a href="#">Game Support Center</a>.
+              </div>
+              <div class="thankyouText with-serialCode pure-g">
+                <span class="pure-u-13-24 serialCodeText">
+                  Serial Code:<br/>
+                  <span class="serialCodeVal"></span>
+                </span>
+                <span class="pure-u-11-24">
+                  <a
+                    href="#"
+                    id="code-redeem"
+                    class="button secondary-button code-redeem-link next"
+                    target="_blank">
+                    PLAY NOW
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>        
+          <hr/>
+          <div class="column item-info shopping-cart pure-g">
+            <div class="item column middle-narrow-column pure-u-md-6-24 pure-u-1">
+              <h1>Item</h1>
+                <div class="description">
+                  <span class="cart-product-name"></span>
+                </div>
+            </div>
+            <div class="details column wide-column pure-u-md-11-24 pure-u-1">
+              <h1>Details</h1>
+                <div class="cart-product-description description">         
+              </div>  
+            </div>
+            <div class="cart-summary-table column wide-column pure-u-md-7-24 pure-u-1">
+              <h1>Price</h1>
+              <div id="firstTotal" class="description cart-subTotal">            
+              </div>
+              <!-- <div class="spacing"></div>
+              <div class="column subtotal-part pure-g">
+                <div class="cart-subTotal column left-column pure-u-1-2">              
+                </div>
+                <div class="cart-subTotal-title column right-column pure-u-1-2">
+                    SUB-TOTAL        
+                </div>           
+              </div> -->
+              <div class="column cart-vat-row pure-g">
+                <div class="cart-vat column left-column pure-u-1-2">             
+                  </div>
+                <div class="cart-vat-title column right-column pure-u-1-2">
+                    TAX         
+                </div>           
+              </div>
+              <hr>
+              <div class="column total-part pure-g">
+                <div class="cart-total column left-column pure-u-1-2">               
+                </div>
+                <div class="cart-Total-title  column right-column pure-u-1-2">
+                  TOTAL        
+                </div>           
+              </div>
+            </div>
+          </div>
+          <hr/>
+          <div class="contents">
+            <div class="sddMandate sddTransaction column pure-g">
+              <!--<div class="pure-u-1"><label>${drog.text.transaction.id}: </label><label class="ConfirmTransaction"></label></div>-->
+              <div class="scroll pure-u-sm-1-2 pure-u-1">
+                <h1>SEPA Direct Debit Mandate</h1>
+                <h2>Creditor name: <span class="creditorCompanyInfo"></span></h2>
+                <h2>Creditor identifier: <span class="creditorCompanyId"></span></h2>
+                <h2>Mandate reference: <span class="mandateUniqueReference"></span></h2>
+                <p>&nbsp;</p>
+                <h2>Name of the debtor: <span class="debtorName"></span></h2>
+                <h2>Street name and number: <span class="debtorAddress"></span></h2>
+                <h2>Postal code: <span class="debtorPostalCode"></span></h2>
+                <h2>City: <span class="debtorCity"></span></h2>
+                <h2>Country: <span class="debtorCountry"></span></h2>
+                <h2>Account number - IBAN: <span class="debtorIBAN"></span></h2>
+                <h2>SWIFT BIC: <span class="debtorBankBIC"></span></h2>
+                <h2>Type of payment: <span class="mandateType"></span></h2>
+                <h2>Date: <span class="mandateDate"></span></h2>
+              </div>
+              <div class="returning pure-u-sm-1-2 pure-u-1">
+                <p>Signature: <span class="mandateSignatureEmail"></span></p>
+                <p>You have read, understood and agreed to be bound by the terms and conditions of this SEPA Direct Debit Mandate</p>
+              </div>
+              <hr/> 
+            </div>
+          </div>
+          <div class="column payment-details-table pure-g">
+            <div class="billing-address column extra-narrow-column pure-u-md-4-24 pure-u-sm-1-3 pure-u-1">
+              <h2>Billing address</h2>
+              <div class="nameOnCard"></div>
+              <div class="billingAddress"></div>
+              <div class="email"> </div>         
+            </div>
+            <div class="billing-address column extra-narrow-column pure-u-md-4-24 pure-u-sm-1-3 pure-u-1">
+              <h2>PAYING WITH</h2>
+              <div class="payment-type"></div>
+              <div class="paymentName-img"></div>
+            </div>
+            <div class="column middle-narrow-column pure-u-md-5-24 pure-u-sm-1-3 pure-u-1">
+              <h2>ORDER NUMBER</h2>
+              <div class="paymentName-number"></div>
+              <div class="spacing"></div>
+              <h2>ORDER DATE</h2>
+              <div class="payment-date"></div>
+              <div class="spacing"></div>
+              <h2>DELIVERY METHOD</h2>
+              <div class="delivery-method"></div>
+              <div class="spacing"></div>
+            </div>
+            <div class="column pure-u-md-11-24 pure-u-sm-1-1 pure-u-1">
+              <fieldset class="thankyou-buttons">
+                <button
+                  type="button"
+                  id="backStore"
+                  class="button primary-button backStore">
+                  BACK TO HOME
+                </button>                
+              </fieldset>    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END thank-you-modal-->
+    <div class="disclaimer">
+      <!-- <div class="column dr_logo">
+        <img src="images/logo_dr.png" alt="">
+      </div> -->
+      <div class="column disclaimer_links">
+        <span class="sellingEntity"></span>
+        <div>
+          <a
+            class="termsSales"
+            href="${TermsOfSale}"
+            target="_blank">
+            Terms of Sale 
+          </a>
+          <a
+            class="privacyPolicy"
+            href="${PrivacyPolicy}"
+            target="_blank">
+            Privacy Policy
+          </a>
+          <a
+            class="legalNotice"
+            href="${LegalNotice}"
+            target="_blank">
+            Legal Notice
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END container-->
+  <script type="text/template" id="preloadImagesTmpl">
+    <img src="images/allcard_v1.png" alt="allcard">
+    <img src="images/buttons.png" alt="buttons">    
+    <img src="images/logo_dr.png" alt="logo_dr">    
+  </script>  
+  <script src="scripts/vendor/jquery-2.1.4.js"></script>
+  <script src="scripts/json2.min.js" ></script>
+  <script src="scripts/jquery.validate-1.15.min.js"></script> 
+  <script src="scripts/store-utils.js"></script>
+  <script src="scripts/store.js?v=4"></script>
+</body>
+</html>
