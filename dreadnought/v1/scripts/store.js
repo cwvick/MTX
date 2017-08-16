@@ -1058,16 +1058,16 @@ var bindEventHandler = function() {
       }
 
       // Replace all letters, symbols except numbers
-      cNumber = cNumber.replace(/\D+/g, '');
+      // cNumber = cNumber.replace(/\D+/g, '');
 
-      $cardNum.val($cardNum.val().replace(/^([0-9]{4}-){3}[0-9]{5}$/, ''));
+      // $cardNum.val($cardNum.val().replace(/^([0-9]{4}-){3}[0-9]{5}$/, ''));
 
-      if (cNumber.length > 0) {
-        var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
-        $(this).val(cNumberWithHyphen);
-      } else {
-        $(this).val('');
-      }
+      // if (cNumber.length > 0) {
+      //   var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
+      //   $(this).val(cNumberWithHyphen);
+      // } else {
+      //   $(this).val('');
+      // }
 
       getCreditCardType(cNumber);
     }
