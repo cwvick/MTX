@@ -1,0 +1,131 @@
+[
+  {
+    "id":"b548b072-308d-11e5-a2cb-0800200c9a66",
+    "prices":[
+      {
+        "id":"b548b072-308d-11e5-a2cb-0800200c9a66USDba79992b-3f1a-48c4-bfca-f21533b767f4",
+        "price":{
+          "symbol":"USD",
+          "isoCode":"USD",
+          "type":"real",
+          "amount":4999,
+          "decimalAmount":49.99
+        },
+        "priceOriginal":{
+          "symbol":"USD",
+          "isoCode":"USD",
+          "type":"real",
+          "amount":4999,
+          "decimalAmount":49.99
+        },
+        "paymentForms":[
+
+        ]
+      }
+    ],
+    "images":[
+      {
+        "id":null,
+        "label":"1",
+        "uri":"//cdn.fatfoogoo.com/uat.pok/images/zenimax.com/ZbRt255122f18f322be63c6d4105a4db.png",
+        "locale":null,
+        "descriptions":null,
+        "attachedFiles":null,
+        "archetype":"image"
+      }
+    ],
+    "videos":[
+
+    ],
+    "tags":[
+      "new",
+      "recurring"
+    ],
+    "startDate":1493227671124,
+    "endDate":null,
+    "deliveryDate":null,
+    "subscription":{
+      "id":null,
+      "duration":null,
+      "trialDuration":null,
+      "billingInterval":null,
+      "recurring":null
+    },
+    "items":[
+      {
+        "id":"ELCC04PCBG01",
+        "descriptions":[
+          {
+            "locale":"en",
+            "short":"Your <span class=\"dr_itemName\"></span> have been added to your <i>The Elder Scrolls: Legends</i> account!<br>Confirmation of your purchase is provided below.<br> This information will also be emailed to <span class=\"input_account\"></span> shortly.",
+            "long":"<span class=\"dr_longDesc\"></span>+1 Bonus Legendary <br>+1 Bonus Premium Legendary",
+            "name":"40 Card Packs"
+          },
+          {
+            "locale":"de",
+            "short":"<span class=\"dr_itemName\"></span> wurde(n) Ihrem <i>The Elder Scrolls Legends</i>-Konto hinzugefügt!<br>Nachfolgend finden Sie die Kaufbestätigung.<br> Diese Informationen werden ebenfalls in Kürze an <span class=\"input_account\"></span> gesendet.",
+            "long":"<span class=\"dr_longDesc\"></span>+1 legendäre Karte extra<br>+1 legendäre Premium-Karte extra",
+            "name":"40 Kartenpakete"
+          },
+          {
+            "locale":"es",
+            "short":"Se han agregado tus <span class=\"dr_itemName\"></span> a tu cuenta de <i>The Elder Scrolls: Legends</i>.<br>A continuación se muestra la confirmación de la compra.<br> Esta información también se enviará por correo electrónico a <span class=\"input_account\"></span> en breves momentos.",
+            "long":"<span class=\"dr_longDesc\"></span>+1 legendaria de bonificación<br>+1 legendaria premium de bonificación",
+            "name":"40 sobres de cartas"
+          },
+          {
+            "locale":"fr",
+            "short":"Votre <span class=\"dr_itemName\"></span> a été ajouté à votre compte <i>The Elder Scrolls: Legends</i> !<br>La confirmation de votre achat est fournie ci-dessous.<br> Cette information vous sera également envoyée par e-mail sur <span class=\"input_account\"></span> dans les plus brefs délais.",
+            "long":"<span class=\"dr_longDesc\"></span>+1 légendaire bonus <br>+1 légendaire premium bonus",
+            "name":"40 paquets de cartes"
+          },
+          {
+            "locale":"it",
+            "short":"<span class=\"dr_itemName\"></span> è stato aggiunto al tuo account di <i>The Elder Scrolls: Legends</i>!<br>La conferma dell&#39;acquisto è fornita di seguito.<br> Queste informazioni saranno inviate tramite email a <span class=\"input_account\"></span> tra poco.",
+            "long":"<span class=\"dr_longDesc\"></span>+1 Leggendaria Bonus<br>+1 Leggendaria Premium Bonus",
+            "name":"40 buste di carte"
+          },
+          {
+            "locale":"pl",
+            "short":"Zamówiony produkt (<span class=\"dr_itemName\"></span>) został dodany do twojego konta <i>The Elder Scrolls: Legends</i>!<br>Potwierdzenie zakupu zamieszczamy poniżej.<br>Ta informacja zostanie też wkrótce przesłana na adres <span class=\"input_account\"></span>.",
+            "long":"<span class=\"dr_longDesc\"></span>+1 dodatkowy legendarny<br>+1 dodatkowy legendarny premium",
+            "name":"40 pakietów kart"
+          },
+          {
+            "locale":"ru",
+            "short":"<span class=\"dr_itemName\"></span> добавляется к вашей учетной записи <i>The Elder Scrolls: Legends</i>!<br>Подтверждение покупки представлено ниже.<br> Эти сведения также будут отправлены на адрес <span class=\"input_account\"></span>.",
+            "long":"<span class=\"dr_longDesc\"></span>+1 карта: легендарная<br>+1 карта: легендарная премиум",
+            "name":"40 бустеров"
+          }
+        ],
+        "images":[
+          {
+            "id":null,
+            "label":"1",
+            "uri":"//cdn.fatfoogoo.com/uat.pok/images/zenimax.com/ZbRt255122f18f322be63c6d4105a4db.png",
+            "locale":null,
+            "descriptions":null,
+            "attachedFiles":null,
+            "archetype":"image"
+          }
+        ],
+        "videos":[
+
+        ],
+        "monetaryValue":null,
+        "bundledItems":null,
+        "quantity":null
+      }
+    ],
+    "countdown":null,
+    "giftable":"nonGiftable",
+    "descriptions":[
+      {
+        "locale":"en",
+        "short":" ",
+        "long":" ",
+        "name":"40 Card Packs"
+      }
+    ]
+  }
+]

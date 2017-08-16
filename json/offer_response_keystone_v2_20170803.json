@@ -1,0 +1,49 @@
+[
+  {
+    "id":"TestOffer_vick001",
+    "prices":[
+      {
+        "id":"TestOffer_vick001USD71fa01b2-14a0-445b-b938-15e8a537e49c",
+        "currency":"USD",
+        "price":99.99,
+        "priceOriginal":99.99
+      }
+    ],
+    "name":"ADVENTURER",
+    "shortDescription":"ADVENTURER",
+    "longDescription":"Eternal",
+    "images":[
+
+    ],
+    "tags":[
+
+    ],
+    "startDate":1501741269701,
+    "endDate":null,
+    "deliveryDate":null,
+    "subscription":null,
+    "items":[
+      {
+        "id":"vicktest01",
+        "name":"ADVENTURER",
+        "descriptions":[
+          {
+            "locale":"en",
+            "short":"Eternal",
+            "long":null,
+            "name":"ADVENTURER"
+          }
+        ],
+        "shortDescription":"ADVENTURER",
+        "longDescription":"Eternal",
+        "images":[
+
+        ],
+        "quantity":null
+      }
+    ],
+    "paymentForms":[
+
+    ]
+  }
+]

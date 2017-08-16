@@ -1,0 +1,100 @@
+[
+  {
+    "id":"buy_all_champions_offer",
+    "prices":[
+      {
+        "id":"buy_all_champions_offerUSD2ddce500-d7e8-4fe9-8e94-852205e3e09c",
+        "price":{
+          "symbol":"USD",
+          "isoCode":"USD",
+          "type":"real",
+          "amount":2999,
+          "decimalAmount":29.99
+        },
+        "priceOriginal":{
+          "symbol":"USD",
+          "isoCode":"USD",
+          "type":"real",
+          "amount":2999,
+          "decimalAmount":29.99
+        },
+        "paymentForms":[
+
+        ]
+      }
+    ],
+    "images":[
+      {
+        "id":null,
+        "label":"1",
+        "uri":"//cdn.fatfoogoo.com/uat.pok/images/zenimax.com/eNagb44e3fe18f322ed43b74304445a0.png",
+        "locale":null,
+        "descriptions":null,
+        "attachedFiles":null,
+        "archetype":"image"
+      }
+    ],
+    "videos":[
+
+    ],
+    "tags":[
+
+    ],
+    "startDate":1495188616246,
+    "endDate":null,
+    "deliveryDate":null,
+    "subscription":{
+      "id":null,
+      "duration":null,
+      "trialDuration":null,
+      "billingInterval":null,
+      "recurring":null
+    },
+    "items":[
+      {
+        "id":"QUWVGDPCBG01",
+        "descriptions":[
+          {
+            "locale":"en",
+            "short":"The Champions Pack grants you permanent access to all Champions.",
+            "long":null,
+            "name":"Champions Pack"
+          },
+          {
+            "locale":"ru",
+            "short":"Набор Чемпионов предоставляет вам постоянный доступ ко всем Чемпионам.",
+            "long":null,
+            "name":"Набор Чемпионов"
+          }
+        ],
+        "images":[
+          {
+            "id":null,
+            "label":"1",
+            "uri":"//cdn.fatfoogoo.com/uat.pok/images/zenimax.com/xy8h141ec8d18f323e5fd59a7cd5aaf1.png",
+            "locale":null,
+            "descriptions":null,
+            "attachedFiles":null,
+            "archetype":"image"
+          }
+        ],
+        "videos":[
+
+        ],
+        "monetaryValue":null,
+        "quantity":null,
+        "bundledItems":null
+      }
+    ],
+    "countdown":null,
+    "giftable":"nonGiftable",
+    "descriptions":[
+      {
+        "locale":"en",
+        "short":"The Champions Pack grants you permanent access to all Champions.",
+        "long":"The Champions Pack grants you permanent access to all Champions.",
+        "name":"Champions Pack"
+      }
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+[{
+  "id": "5",
+  "prices": [{
+    "id": "5USDad266ec8-7a48-4ab3-8a19-59f161bb324c",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 5000,
+      "decimalAmount": 50.0
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 5000,
+      "decimalAmount": 50.0
+    },
+    "paymentForms": []
+  }],
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "//cdn.fatfoogoo.com/qa.pok/images/zenimax.com/oTud248ab9d18f3637afd01cc9a0239e.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "countdown": {
+    "startDate": 1442928110340,
+    "endDate": 1443048210340
+  },
+  "videos": [],
+  "tags": ["new"],
+  "startDate": 1436260174316,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "5",
+    "descriptions": [{
+      "short": "50 Gold",
+      "long": null,
+      "name": "50 Gold",
+      "locale": "en"
+    }],
+    "images": [{
+      "id": null,
+      "label": "1",
+      "uri": "//cdn.fatfoogoo.com/qa.pok/images/zenimax.com/oTud248ab9d18f3637afd01cc9a0239e.png",
+      "locale": null,
+      "descriptions": null,
+      "attachedFiles": null,
+      "archetype": "image"
+    }],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 5000,
+      "decimalAmount": 50.0,
+      "decimalAmountDisplay": null,
+      "amountDisplay": null
+    },
+    "bundledItems": null
+  }],
+  "descriptions": [{
+    "short": "50 Gold",
+    "long": "50 Gold",
+    "name": "50",
+    "locale": "en"
+  }]
+}, {
+  "id": "11",
+  "prices": [{
+    "id": "11USDa44eea5e-4f71-444a-9eaf-5858465a0bbc",
+    "price": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 2000,
+      "decimalAmount": 20.0
+    },
+    "priceOriginal": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 2400,
+      "decimalAmount": 24.0
+    },
+    "paymentForms": []
+  }],
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "//cdn.fatfoogoo.com/qa.pok/images/zenimax.com/nWmw38ba20018f362bd0e4d006a55b23.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1435668228887,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "10",
+    "descriptions": [{
+      "short": "•\tPC/Mac Only<br>\r\n•\tUse gold to purchase Virtual good<br>\r\n•\tGold can't be traded<br>\r\n•\tDigital content",
+      "long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis leo nec magna accumsan, eu sagittis sapien varius. Suspendisse ullamcorper dignissim pellentesque.",
+      "name": "SOLDIER'S PACK",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 25000,
+      "decimalAmount": 250.0,
+      "decimalAmountDisplay": 200.0,
+      "amountDisplay": 20000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "Get 5 more gold when you purchase this SOLDIER'S PACK",
+    "long": "Get 5 more gold when you purchase this SOLDIER'S PACK",
+    "name": "10 Gold (+5 Bonus Gold)",
+    "locale": "en"
+  }]
+}, {
+  "id": "d6518a9b-c73b-488f-9fe1-5c4fda0d6ef1",
+  "prices": [{
+    "id": "d6518a9b-c73b-488f-9fe1-5c4fda0d6ef1USDe1007bed-4dcf-4dc0-86c2-c43ab7c46ab7",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 2000,
+      "decimalAmount": 20.0
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 2000,
+      "decimalAmount": 20.0
+    },
+    "paymentForms": []
+  }],
+  "images": [],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1439563751707,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "OracleID12345",
+    "descriptions": [{
+      "short": "Item Product Details Update",
+      "long": "Item Description (no limitation) Update",
+      "name": "Item Title Update",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 5000,
+      "decimalAmount": 50.0,
+      "decimalAmountDisplay": 40.0,
+      "amountDisplay": 4000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "Offer PRODUCT DETAILS",
+    "long": "Offer PRODUCT DETAILS",
+    "name": "Offer Title",
+    "locale": "en"
+  }]
+}, {
+  "id": "gold_pack_1500_aus_offer",
+  "prices": [{
+    "id": "gold_pack_1500_aus_offerAUD34303472-3842-41aa-8e1c-207fe5e0e473",
+    "price": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 3599,
+      "decimalAmount": 35.99
+    },
+    "priceOriginal": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 3599,
+      "decimalAmount": 35.99
+    },
+    "paymentForms": ["cpgCreditCard", "cpgPaySafeCard", "cpgPayPalPreApproved", "cpgPayPal"]
+  }],
+  "images": [{
+    "id": null,
+    "label": "3",
+    "uri": "//cdn.fatfoogoo.com/qa.pok/images/zenimax.com/olqgea0754ff97da3ed505d69e736585.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1437724241628,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "gold_pack_1500",
+    "descriptions": [{
+      "short": "• For PC Only.<br>• Use Gold to purchase virtual items within BATTLECRY.<br>• Gold cannot be traded or transferred.<br>• This is a license for digital content.",
+      "long": "Show your commitment to the fight with a purchase of the Veteran's Pack! The Veteran's Pack has enough Gold to purchase both a Weapon and a Uniform for a Warrior, or a large combination of specialty customization items!<br><br>Gold can be used to acquire new Uniforms, Weapons and other goods that set you apart from others!",
+      "name": "Veteran's Pack",
+      "locale": "en"
+    }],
+    "images": [{
+      "id": null,
+      "label": "3",
+      "uri": "//cdn.fatfoogoo.com/qa.pok/images/zenimax.com/olqgea0754ff97da3ed505d69e736585.png",
+      "locale": null,
+      "descriptions": null,
+      "attachedFiles": null,
+      "archetype": "image"
+    }],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 180000,
+      "decimalAmount": 1800.0,
+      "decimalAmountDisplay": 1500.0,
+      "amountDisplay": 150000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "Includes 300 Bonus Gold with the Veteran's Pack!",
+    "long": "Includes 300 Bonus Gold with the Veteran's Pack!",
+    "name": "1500 Gold",
+    "locale": "en"
+  }]
+}]

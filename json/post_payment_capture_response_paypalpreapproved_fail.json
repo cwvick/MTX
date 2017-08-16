@@ -1,0 +1,17 @@
+{
+  "message": "generalError",
+  "errorText": "paymentprovider.cpg.error",
+  "params": {
+    "human_readable:de": "Die Autorisierung der Zahlung ist fehlgeschlagen",
+    "human_readable:en": "Payment Authorization Failed",
+    "human_readable:fr": "Échec de l’autorisation de paiement",
+    "human_readable:es": "No se ha podido autorizar el pago"
+  },
+  "followUpActionList": [{
+    "type": "NEW_PAYPAL_BILLING_AGREEMENT",
+    "translations": {}
+  }, {
+    "type": "USE_ANOTHER_PAYMENT_METHOD",
+    "translations": {}
+  }]
+}

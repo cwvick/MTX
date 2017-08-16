@@ -1,0 +1,55 @@
+[
+  {
+    "id":"OFFER-GTAV-SHARKCARD-WHALE",
+    "prices":[
+      {
+        "id":"OFFER-PRICEPOINT-GTAV-SHARKCARD-WHALE-EUR2",
+        "currency":"NOK",
+        "price":42.99,
+        "priceOriginal":42.99
+      }
+    ],
+    "name":"Whale Shark Cash Card",
+    "shortDescription":"Whale Shark Cash Card",
+    "longDescription":"Whale Shark Cash Card",
+    "images":[
+
+    ],
+    "tags":[
+
+    ],
+    "startDate":1437054622558,
+    "endDate":null,
+    "deliveryDate":null,
+    "subscription":null,
+    "items":[
+      {
+        "id":"OFFER-GTAV-SHARKCARD-WHALE",
+        "name":"Whale Shark Cash Card",
+        "descriptions":[
+          {
+            "locale":"en",
+            "short":"Whale Shark Card",
+            "long":null,
+            "name":"Whale Shark Card"
+          }
+        ],
+        "shortDescription":"Whale Shark Cash Card",
+        "longDescription":"Whale Shark Cash Card",
+        "images":[
+
+        ],
+        "quantity":null
+      }
+    ],
+    "paymentForms":[
+      "cpgClickAndBuy",
+      "cpgCreditCard",
+      "cpgIBP",
+      "cpgPaySafeCard",
+      "cpgSEPADirectDebit",
+      "cpgWebMoney",
+      "cpgPayPal"
+    ]
+  }
+]

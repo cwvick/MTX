@@ -1,0 +1,233 @@
+[{
+  "id": "800Gems",
+  "prices": [{
+    "id": "800GemsRUB034779c4-b9bb-4ae2-a5ec-b3a242df15dc",
+    "currency": "RUB",
+    "price": 740.0,
+    "priceOriginal": 750.0
+  }, {
+    "id": "800GemsUSDf8c1285e-a828-4799-897f-7687540058dd",
+    "currency": "USD",
+    "price": 10.0,
+    "priceOriginal": 10.0
+  }],
+  "name": "800",
+  "shortDescription": "800",
+  "longDescription": "800",
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "https://www.youtube.com/embed/IOUk2y0K2m8"
+  }, {
+    "id": null,
+    "label": "2",
+    "uri": "https://www.youtube.com/embed/SihbhaiGu6k"
+  }, {
+    "id": null,
+    "label": "3",
+    "uri": "https://www.youtube.com/embed/yXKRXq1kDdI"
+  }],
+  "tags": [],
+  "startDate": 1384526160000,
+  "endDate": 3184526160000,
+  "deliveryDate": null,
+  "subscription": null,
+  "items": [{
+    "id": "1",
+    "name": "800",
+    "shortDescription": "800",
+    "longDescription": "800",
+    "images": [{
+      "id": null,
+      "label": "1",
+      "uri": "https://www.youtube.com/embed/IOUk2y0K2m8"
+    }, {
+      "id": null,
+      "label": "2",
+      "uri": "https://www.youtube.com/embed/SihbhaiGu6k"
+    }, {
+      "id": null,
+      "label": "3",
+      "uri": "https://www.youtube.com/embed/yXKRXq1kDdI"
+    }],
+    "quantity": null
+  }],
+  "paymentForms": []
+}, {
+  "id": "1600Gems",
+  "prices": [{
+    "id": "1600GemsRUBe46d4c45-c27f-4929-8b65-a61896055445",
+    "currency": "RUB",
+    "price": 1500.0,
+    "priceOriginal": 15000.0
+  }, {
+    "id": "1600GemsUSD772f9e40-f016-46b1-a2ec-289144f21df2",
+    "currency": "USD",
+    "price": 20.0,
+    "priceOriginal": 20.0
+  }],
+  "name": "1600",
+  "shortDescription": "1600",
+  "longDescription": "1600",
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "https://www.youtube.com/embed/IOUk2y0K2m8"
+  }, {
+    "id": null,
+    "label": "2",
+    "uri": "https://www.youtube.com/embed/SihbhaiGu6k"
+  }, {
+    "id": null,
+    "label": "3",
+    "uri": "https://www.youtube.com/embed/yXKRXq1kDdI"
+  }],
+  "tags": [],
+  "startDate": 1405342260000,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": null,
+  "items": [{
+    "id": "2",
+    "name": "1600",
+    "shortDescription": "1600",
+    "longDescription": "1600",
+    "images": [{
+      "id": null,
+      "label": "1",
+      "uri": "https://www.youtube.com/embed/IOUk2y0K2m8"
+    }, {
+      "id": null,
+      "label": "2",
+      "uri": "https://www.youtube.com/embed/SihbhaiGu6k"
+    }, {
+      "id": null,
+      "label": "3",
+      "uri": "https://www.youtube.com/embed/yXKRXq1kDdI"
+    }],
+    "quantity": null
+  }],
+  "paymentForms": []
+}, {
+  "id": "2800Gems",
+  "prices": [{
+    "id": "2800GemsUSD8c9a4030-bf1f-4635-847d-30c3677e8569",
+    "currency": "USD",
+    "price": 35.0,
+    "priceOriginal": 35.0
+  }, {
+    "id": "2800Gemstest_9",
+    "currency": null,
+    "price": 0.0,
+    "priceOriginal": 0.0
+  }, {
+    "id": "2800Gemstest_10",
+    "currency": null,
+    "price": 0.0,
+    "priceOriginal": 0.0
+  }],
+  "name": "2800",
+  "shortDescription": "2800",
+  "longDescription": "2800",
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "https://www.youtube.com/embed/IOUk2y0K2m8"
+  }, {
+    "id": null,
+    "label": "3",
+    "uri": "https://www.youtube.com/embed/yXKRXq1kDdI"
+  }, {
+    "id": null,
+    "label": "4",
+    "uri": "https://www.youtube.com/embed/SihbhaiGu6k"
+  }],
+  "tags": [],
+  "startDate": 1405342680000,
+  "endDate": 3184526160000,
+  "deliveryDate": null,
+  "subscription": null,
+  "items": [{
+    "id": "3",
+    "name": "2800",
+    "shortDescription": "2800",
+    "longDescription": "2800",
+    "images": [{
+      "id": null,
+      "label": "1",
+      "uri": "https://www.youtube.com/embed/IOUk2y0K2m8"
+    }, {
+      "id": null,
+      "label": "3",
+      "uri": "https://www.youtube.com/embed/yXKRXq1kDdI"
+    }, {
+      "id": null,
+      "label": "4",
+      "uri": "https://www.youtube.com/embed/SihbhaiGu6k"
+    }],
+    "quantity": null
+  }],
+  "paymentForms": []
+}, {
+  "id": "4000Gems",
+  "prices": [{
+    "id": "4000GemsRUB9e81eff7-365c-4c4e-9c94-bbae83306733",
+    "currency": "GBP",
+    "price": 3700.0,
+    "priceOriginal": 3700.0
+  }, {
+    "id": "4000GemsUSDdfbebc69-ba92-45dd-88fa-287ea310c189",
+    "currency": "USD",
+    "price": 50.0,
+    "priceOriginal": 50.0
+  }],
+  "name": "4000",
+  "shortDescription": "4000",
+  "longDescription": "4000",
+  "images": [],
+  "tags": [],
+  "startDate": 1405342980000,
+  "endDate": 3184526160000,
+  "deliveryDate": null,
+  "subscription": null,
+  "items": [{
+    "id": "4",
+    "name": "4000",
+    "shortDescription": "4000",
+    "longDescription": "4000",
+    "images": [],
+    "quantity": null
+  }],
+  "paymentForms": []
+}, {
+  "id": "8000Gems",
+  "prices": [{
+    "id": "8000GemsRUB9b62e964-942c-4751-bbfa-df8de504e152",
+    "currency": "EUR",
+    "price": 7400.0,
+    "priceOriginal": 7300.0
+  }, {
+    "id": "8000GemsUSDb17f061e-2a32-4f0d-8e79-e2f1ae54c82d",
+    "currency": "USD",
+    "price": 100.0,
+    "priceOriginal": 100.0
+  }],
+  "name": "8000",
+  "shortDescription": "8000",
+  "longDescription": "8000",
+  "images": [],
+  "tags": [],
+  "startDate": 1405343220000,
+  "endDate": 3184526160000,
+  "deliveryDate": null,
+  "subscription": null,
+  "items": [{
+    "id": "5",
+    "name": "8000",
+    "shortDescription": "8000",
+    "longDescription": "8000",
+    "images": [],
+    "quantity": null
+  }],
+  "paymentForms": []
+}]

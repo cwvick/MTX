@@ -1,0 +1,19 @@
+{
+  "requestHeaders": {
+    "dnsPixelUrl": "JPKS47OSRC54X---0---fatfoogoo---0---10-2-19-37.cfspx-test.digitalriver.com/images/cleardot.gif"
+  },
+  "transactionId": "JPKS47OSRC54X",
+  "transaction": null,
+  "thankYouPageType": "SUCCESS_PURCHASE",
+  "amount": "99.99",
+  "amountTotal": "119.99",
+  "sellingEntity": {
+    "text": " Digital River International S.a.r.l. ",
+    "footer": "Digital River International S.a.r.l. is authorized reseller and merchant of the products and services offered within this store.",
+    "entityName": "Digital River International S.a.r.l. is authorized reseller and merchant of the products and services offered within this store."
+  },
+  "tax": "20.0",
+  "redirectURL": null,
+  "expirationDate": null,
+  "authorizationCode": null
+}

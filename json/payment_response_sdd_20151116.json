@@ -1,0 +1,28 @@
+{
+  "mandate": {
+    "clientConfigId": null,
+    "debtorName": "Nihir Kumar",
+    "debtorIBAN": "4975",
+    "debtorBankBIC": "DEUTDEDKXXX",
+    "languageTwoLetters": "en",
+    "debtorCountry": "Germany",
+    "debtorAddress": "Berlin, Berlin",
+    "debtorPostalCode": "23654",
+    "debtorCity": "Berlin",
+    "mandateUniqueReference": "2662ac3fe98841109dc90bfd7e9b7652",
+    "mandateDate": 1447646831797,
+    "mandateType": "ONE_OFF",
+    "creditorCompanyInfo": "Digital River World Payments AB, Textilgatan 31, 120 30 Stockholm, Sweden",
+    "creditorCompanyId": "GB95DRWSDDCHAS00000041311043",
+    "bankBillingInfoId": 109159,
+    "mandateState": "NEW",
+    "expiredAtDate": null,
+    "initialTransactionId": null,
+    "mandateSignatureEmail": null
+  },
+  "creditCardId": null,
+  "referenceBillingInfoId": null,
+  "modifiedAddress": null,
+  "addressId": "4491874",
+  "bankBillingInfoId": "109159"
+}

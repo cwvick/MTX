@@ -1,0 +1,33 @@
+[{
+  "id": "OFFER-GTAV-SHARKCARD-WHALE",
+  "prices": [{
+    "id": "OFFER-PRICEPOINT-GTAV-SHARKCARD-WHALE-JPY",
+    "currency": "JPY",
+    "price": 4999.0,
+    "priceOriginal": 4999.0
+  }],
+  "name": "Whale Shark Cash Card",
+  "shortDescription": "Whale Shark Cash Card",
+  "longDescription": "Whale Shark Cash Card",
+  "images": [],
+  "tags": [],
+  "startDate": 1428662597449,
+  "endDate": 157679992800000,
+  "deliveryDate": null,
+  "subscription": null,
+  "items": [{
+    "id": "OFFER-GTAV-SHARKCARD-WHALE",
+    "name": "Whale Shark Cash Card",
+    "descriptions": [{
+      "short": "Whale Shark Card",
+      "long": null,
+      "name": "Whale Shark Card",
+      "locale": "en"
+    }],
+    "shortDescription": "Whale Shark Cash Card",
+    "longDescription": "Whale Shark Cash Card",
+    "images": [],
+    "quantity": null
+  }],
+  "paymentForms": ["cpgCreditCard", "cpgKonbini", "cpgPayEasy", "cpgPayPal"]
+}]

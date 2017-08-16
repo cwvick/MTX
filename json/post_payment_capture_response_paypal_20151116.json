@@ -1,0 +1,13 @@
+{
+  "requestHeaders": null,
+  "transactionId": "1UFC8BYCUAYHOH",
+  "redirectURL": "https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-33H99983CX087372N&useraction=commit",
+  "authorizationCode": null,
+  "thankYouPageType": "SUCCESS_PURCHASE",
+  "transaction": null,
+  "expirationDate": null,
+  "amountTotal": "10.0",
+  "sellingEntity": null,
+  "tax": "1.67",
+  "amount": "8.33"
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "id":"Test_responsive_offer",
+    "prices":[
+      {
+        "id":"Test_responsive_offerUSD540d1047-bc8c-4031-8245-488f315176fd",
+        "currency":"USD",
+        "price":1234567.89,
+        "priceOriginal":1234567.89
+      },
+      {
+        "id":"Test_responsive_offerEURc6e5a25c-0727-4cf2-8275-79e350c374a0",
+        "currency":"EUR",
+        "price":1234567.89,
+        "priceOriginal":1234567.89
+      }
+    ],
+    "name":"9999 Platinum will be delive",
+    "shortDescription":"9999 Platinum will be delive",
+    "longDescription":"9999 Platinum will be delivered",
+    "images":[
+      {
+        "id":null,
+        "label":"1",
+        "uri":"//cdn.fatfoogoo.com/uat.pok/images/digitalextremes.com/SFpT91908f018f321066f0312de80a01.png"
+      }
+    ],
+    "tags":[
+
+    ],
+    "startDate":1469520720000,
+    "endDate":null,
+    "deliveryDate":null,
+    "subscription":null,
+    "items":[
+      {
+        "id":"TEST_Responsive",
+        "name":"9999 Platinum will be delive",
+        "descriptions":[
+          {
+            "locale":"en",
+            "short":"9999 Platinum will be delivered",
+            "long":null,
+            "name":"9999 Platinum will be delive"
+          }
+        ],
+        "shortDescription":"9999 Platinum will be delive",
+        "longDescription":"9999 Platinum will be delivered",
+        "images":[
+          {
+            "id":null,
+            "label":"1",
+            "uri":"//cdn.fatfoogoo.com/uat.pok/images/digitalextremes.com/SFpT91908f018f321066f0312de80a01.png"
+          }
+        ],
+        "quantity":null
+      }
+    ],
+    "paymentForms":[
+
+    ]
+  }
+]

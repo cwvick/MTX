@@ -1,0 +1,46 @@
+{
+  "requestHeaders": null,
+  "freeText": "Grab your headset and enjoy.",
+  "authorizationCode": null,
+  "tax": "0.0",
+  "redirectURL": null,
+  "sellingEntity": null,
+  "thankYouPageType": "SUCCESS_PURCHASE",
+  "expirationDate": null,
+  "currencyIdentifier": null,
+  "amount": "10.99",
+  "amountOriginal": null,
+  "amountTotal": "10.99",
+  "taxOnTop": true,
+  "transactionId": "1UFC8J8EWMW3K1",
+  "transaction": {
+    "id": "1UFC8J8EWMW3K1",
+    "details": {
+      "fulfillmentStatus": null,
+      "paymentDate": 1457670870000,
+      "paymentStatus": "initialized"
+    },
+    "lineItems": [
+      {
+        "descriptions": [
+          {
+            "short": "Vive_Content_Item_QA_Title",
+            "long": "Vive_Content_Item_QA_Title Description",
+            "name": "Vive_Content_Item_QA_Title",
+            "locale": "en"
+          }
+        ],
+        "id": "eae58d13-d3cd-482d-9c4d-0d6c1b6d5a80",
+        "serialCode": null,
+        "quantity": 1,
+        "monetaryValue": null,
+        "bundledItems": []
+      }
+    ],
+    "account": {
+      "externalAccountId": "nmfnmd1",
+      "externalIdentityId": null,
+      "referenceId": "nmfnmd1"
+    }
+  }
+}

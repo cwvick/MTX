@@ -1,0 +1,46 @@
+{
+  "requestHeaders": null,
+  "thankYouPageType": "SUCCESS_PURCHASE",
+  "amount": "20.0",
+  "amountTotal": "20.0",
+  "sellingEntity": null,
+  "tax": "0.0",
+  "authorizationCode": null,
+  "redirectURL": null,
+  "expirationDate": null,
+  "transactionId": "RI1Q0L5MIEARL",
+  "transaction": {
+    "id": "RI1Q0L5MIEARL",
+    "details": {
+      "paymentDate": 1442919961000,
+      "paymentStatus": "initialized",
+      "fulfillmentStatus": null
+    },
+    "account": {
+      "referenceId": "nihirf1",
+      "externalAccountId": "nihirf1",
+      "externalIdentityId": null
+    },
+    "lineItems": [{
+      "descriptions": [{
+        "short": "10 Gold (+5 Bonus Gold)",
+        "long": "Get 5 more gold when you purchase this SOLDIER'S PACK",
+        "name": "10 Gold (+5 Bonus Gold)",
+        "locale": "en"
+      }],
+      "id": "49c24807-d82c-472b-af7d-1ea740ceef4d",
+      "serialCode": null,
+      "bundledItems": [],
+      "quantity": 1,
+      "monetaryValue": {
+        "symbol": "",
+        "isoCode": "gold",
+        "type": "virtual",
+        "amount": 25000,
+        "decimalAmount": 250.0,
+        "decimalAmountDisplay": 200.0,
+        "amountDisplay": 20000
+      }
+    }]
+  }
+}

@@ -1,0 +1,71 @@
+[{
+  "id": "bdutratest",
+  "prices": [{
+    "id": "bdutratestUSDb1a7d4f9-ed1a-43c8-a8d0-1e84951d2e85",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 1099,
+      "decimalAmount": 10.99
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 1099,
+      "decimalAmount": 10.99
+    },
+    "paymentForms": [
+      "cpgCreditCard",
+      "cpgPayPalPreApproved",
+      "cpgPaySafeCard",
+      "cpgPayPal"
+    ]
+  }],
+  "images": [
+
+  ],
+  "videos": [
+
+  ],
+  "tags": [
+
+  ],
+  "startDate": 1459193460000,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "bryantest",
+    "descriptions": [{
+      "short": "test",
+      "long": null,
+      "name": "test",
+      "locale": "en"
+    }],
+    "images": [
+
+    ],
+    "videos": [
+
+    ],
+    "quantity": null,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "giftable": "nonGiftable",
+  "descriptions": [{
+    "short": "test",
+    "long": "test",
+    "name": "test",
+    "locale": "en"
+  }]
+}]

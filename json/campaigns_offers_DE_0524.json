@@ -1,0 +1,371 @@
+{
+  "campaign":{
+    "version":"1.0",
+    "position":0,
+    "tags":[
+
+    ],
+    "upsellingTriggerEventDataList":[
+
+    ],
+    "campaignType":"promotion",
+    "campaignToOfferDatas":[
+      {
+        "position":1,
+        "startDate":null,
+        "endDate":null,
+        "externalOfferId":"17",
+        "campaignDataId":null
+      }
+    ],
+    "upsellingTriggerDataList":[
+
+    ],
+    "files":[
+
+    ],
+    "referenceId":"rherbst",
+    "active":true,
+    "startDate":1495196928419,
+    "endDate":null,
+    "preconditions":[
+
+    ],
+    "offerDescriptions":[
+      {
+        "description":"digital extremes test campaign",
+        "longDescription":null,
+        "localeIdentifier":"en",
+        "catalogId":null,
+        "name":"testcampaign"
+      }
+    ],
+    "lastChange":1495196928426,
+    "catalogId":{
+      "externalId":"default"
+    },
+    "attributes":[
+
+    ],
+    "contentId":"091f718e-2bf0-49d8-9e58-020482476589",
+    "externalCampaignId":"ryantest03",
+    "startNow":true,
+    "discountType":"percent",
+    "currencyDiscounts":[
+
+    ],
+    "discountPercentage":50.0,
+    "discountPriceType":"prime",
+    "noEndDate":true
+  },
+  "offerList":[
+    {
+      "id":"17",
+      "prices":[
+        {
+          "id":"17TRY9ac82fc8-cefe-4ff6-a0b4-cfb1a437e623",
+          "price":{
+            "symbol":"TRY",
+            "isoCode":"TRY",
+            "type":"real",
+            "amount":450,
+            "decimalAmount":4.5
+          },
+          "priceOriginal":{
+            "symbol":"TRY",
+            "isoCode":"TRY",
+            "type":"real",
+            "amount":900,
+            "decimalAmount":9.0
+          },
+          "paymentForms":[
+
+          ]
+        },
+        {
+          "id":"17TWD8068b48d-9007-4045-9f92-a37e5d1695bd",
+          "price":{
+            "symbol":"TWD",
+            "isoCode":"TWD",
+            "type":"real",
+            "amount":7500,
+            "decimalAmount":75.0
+          },
+          "priceOriginal":{
+            "symbol":"TWD",
+            "isoCode":"TWD",
+            "type":"real",
+            "amount":14999,
+            "decimalAmount":149.99
+          },
+          "paymentForms":[
+
+          ]
+        },
+        {
+          "id":"17YEN673d8b80-4314-425c-8ee0-bc1580cd8dd1",
+          "price":{
+            "symbol":"JPY",
+            "isoCode":"JPY",
+            "type":"real",
+            "amount":24950,
+            "decimalAmount":249.5
+          },
+          "priceOriginal":{
+            "symbol":"JPY",
+            "isoCode":"JPY",
+            "type":"real",
+            "amount":49900,
+            "decimalAmount":499.0
+          },
+          "paymentForms":[
+
+          ]
+        },
+        {
+          "id":"17RUB005dcdf6-7de1-4bf0-804a-33f6d3aad92e",
+          "price":{
+            "symbol":"RUB",
+            "isoCode":"RUB",
+            "type":"real",
+            "amount":7699,
+            "decimalAmount":76.99
+          },
+          "priceOriginal":{
+            "symbol":"RUB",
+            "isoCode":"RUB",
+            "type":"real",
+            "amount":15399,
+            "decimalAmount":153.99
+          },
+          "paymentForms":[
+
+          ]
+        },
+        {
+          "id":"17AUD21a34d51-77ea-479b-a733-7e92bfc6c736",
+          "price":{
+            "symbol":"AUD",
+            "isoCode":"AUD",
+            "type":"real",
+            "amount":274,
+            "decimalAmount":2.74
+          },
+          "priceOriginal":{
+            "symbol":"AUD",
+            "isoCode":"AUD",
+            "type":"real",
+            "amount":549,
+            "decimalAmount":5.49
+          },
+          "paymentForms":[
+
+          ]
+        },
+        {
+          "id":"17GBP48477c6c-542f-49f4-89b2-370120b55d3c",
+          "price":{
+            "symbol":"GBP",
+            "isoCode":"GBP",
+            "type":"real",
+            "amount":199,
+            "decimalAmount":1.99
+          },
+          "priceOriginal":{
+            "symbol":"GBP",
+            "isoCode":"GBP",
+            "type":"real",
+            "amount":399,
+            "decimalAmount":3.99
+          },
+          "paymentForms":[
+
+          ]
+        },
+        {
+          "id":"17EUR3960d1cc-7e6a-4ff6-9698-4502e2200760",
+          "price":{
+            "symbol":"EUR",
+            "isoCode":"EUR",
+            "type":"real",
+            "amount":224,
+            "decimalAmount":2.24
+          },
+          "priceOriginal":{
+            "symbol":"EUR",
+            "isoCode":"EUR",
+            "type":"real",
+            "amount":449,
+            "decimalAmount":4.49
+          },
+          "paymentForms":[
+
+          ]
+        },
+        {
+          "id":"17CADe5db2c34-bb22-493c-8cfd-cba1acac66f4",
+          "price":{
+            "symbol":"CAD",
+            "isoCode":"CAD",
+            "type":"real",
+            "amount":274,
+            "decimalAmount":2.74
+          },
+          "priceOriginal":{
+            "symbol":"CAD",
+            "isoCode":"CAD",
+            "type":"real",
+            "amount":549,
+            "decimalAmount":5.49
+          },
+          "paymentForms":[
+
+          ]
+        },
+        {
+          "id":"17USD12150996-5264-4aec-a746-2390cd7b8a36",
+          "price":{
+            "symbol":"USD",
+            "isoCode":"USD",
+            "type":"real",
+            "amount":249,
+            "decimalAmount":2.49
+          },
+          "priceOriginal":{
+            "symbol":"USD",
+            "isoCode":"USD",
+            "type":"real",
+            "amount":499,
+            "decimalAmount":4.99
+          },
+          "paymentForms":[
+
+          ]
+        }
+      ],
+      "images":[
+        {
+          "id":null,
+          "label":"1",
+          "uri":"//cdn.fatfoogoo.com/uat.pok/images/digitalextremes.com/gXDud337c0118f32114c1d252d2631ed.png",
+          "locale":null,
+          "descriptions":null,
+          "attachedFiles":null,
+          "archetype":"image"
+        }
+      ],
+      "videos":[
+
+      ],
+      "tags":[
+
+      ],
+      "startDate":1495484035067,
+      "endDate":null,
+      "deliveryDate":null,
+      "subscription":{
+        "id":null,
+        "duration":null,
+        "trialDuration":null,
+        "billingInterval":null,
+        "recurring":null
+      },
+      "items":[
+        {
+          "id":"17",
+          "descriptions":[
+            {
+              "locale":"en",
+              "short":"75 Platinum",
+              "long":null,
+              "name":"75 Platinum"
+            },
+            {
+              "locale":"de",
+              "short":"75 Platinum",
+              "long":null,
+              "name":"75 Platinum"
+            },
+            {
+              "locale":"es",
+              "short":"75 Platinum",
+              "long":null,
+              "name":"75 Platinum"
+            },
+            {
+              "locale":"fr",
+              "short":"75 Platinum",
+              "long":null,
+              "name":"75 Platinum"
+            },
+            {
+              "locale":"ja",
+              "short":"75 Platinum",
+              "long":null,
+              "name":"75 Platinum"
+            },
+            {
+              "locale":"pl",
+              "short":"75 Platinum",
+              "long":null,
+              "name":"75 Platinum"
+            },
+            {
+              "locale":"pt",
+              "short":"75 Platinum",
+              "long":null,
+              "name":"75 Platinum"
+            },
+            {
+              "locale":"ru",
+              "short":"75 Platinum",
+              "long":null,
+              "name":"75 Platinum"
+            },
+            {
+              "locale":"zh",
+              "short":"75 Platinum",
+              "long":null,
+              "name":"75 Platinum"
+            }
+          ],
+          "images":[
+            {
+              "id":null,
+              "label":"1",
+              "uri":"//cdn.fatfoogoo.com/uat.pok/images/digitalextremes.com/gXDud337c0118f32114c1d252d2631ed.png",
+              "locale":null,
+              "descriptions":null,
+              "attachedFiles":null,
+              "archetype":"image"
+            }
+          ],
+          "videos":[
+
+          ],
+          "monetaryValue":{
+            "symbol":"",
+            "isoCode":"Platinum",
+            "type":"virtual",
+            "amount":7500,
+            "decimalAmount":75.0,
+            "decimalAmountDisplay":null,
+            "amountDisplay":null
+          },
+          "quantity":null,
+          "bundledItems":null
+        }
+      ],
+      "countdown":null,
+      "giftable":"nonGiftable",
+      "descriptions":[
+        {
+          "locale":"en",
+          "short":"75 Platinum",
+          "long":"75 Platinum",
+          "name":"75 Platinum"
+        }
+      ]
+    }
+  ]
+}

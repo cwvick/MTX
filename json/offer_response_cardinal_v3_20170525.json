@@ -1,0 +1,137 @@
+[
+  {
+    "id":"b548b070-308d-11e5-a2cb-0800200c9a66",
+    "prices":[
+      {
+        "id":"b548b070-308d-11e5-a2cb-0800200c9a66BRLe2056ea1-eab1-4592-a381-007c3ee21eee",
+        "price":{
+          "symbol":"BRL",
+          "isoCode":"BRL",
+          "type":"real",
+          "amount":699,
+          "decimalAmount":6.99
+        },
+        "priceOriginal":{
+          "symbol":"BRL",
+          "isoCode":"BRL",
+          "type":"real",
+          "amount":699,
+          "decimalAmount":6.99
+        },
+        "paymentForms":[
+
+        ]
+      }
+    ],
+    "images":[
+      {
+        "id":null,
+        "label":"1",
+        "uri":"//cdn.fatfoogoo.com/uat.pok/images/zenimax.com/gmFv27b8dab18f322acbaf54703240d0.png",
+        "locale":null,
+        "descriptions":null,
+        "attachedFiles":null,
+        "archetype":"image"
+      }
+    ],
+    "videos":[
+
+    ],
+    "tags":[
+      "new",
+      "recurring"
+    ],
+    "startDate":1495657021965,
+    "endDate":null,
+    "deliveryDate":null,
+    "subscription":{
+      "id":null,
+      "duration":null,
+      "trialDuration":null,
+      "billingInterval":null,
+      "recurring":null
+    },
+    "items":[
+      {
+        "id":"ELCC01PCBG01",
+        "descriptions":[
+          {
+            "locale":"en",
+            "short":"Your <span class=\"dr_itemName\"></span> have been added to your <i>The Elder Scrolls: Legends</i> account!<br>Confirmation of your purchase is provided below.<br> This information will also be emailed to <span class=\"input_account\"></span> shortly.",
+            "long":null,
+            "name":"2 Card Packs"
+          },
+          {
+            "locale":"de",
+            "short":"<span class=\"dr_itemName\"></span> wurde(n) Ihrem <i>The Elder Scrolls Legends</i>-Konto hinzugefügt!<br>Nachfolgend finden Sie die Kaufbestätigung.<br> Diese Informationen werden ebenfalls in Kürze an <span class=\"input_account\"></span> gesendet.",
+            "long":null,
+            "name":"2 Kartenpakete"
+          },
+          {
+            "locale":"es",
+            "short":"Se han agregado tus <span class=\"dr_itemName\"></span> a tu cuenta de <i>The Elder Scrolls: Legends</i>.<br>A continuación se muestra la confirmación de la compra.<br> Esta información también se enviará por correo electrónico a <span class=\"input_account\"></span> en breves momentos.",
+            "long":null,
+            "name":"2 sobres de cartas"
+          },
+          {
+            "locale":"fr",
+            "short":"Votre <span class=\"dr_itemName\"></span> a été ajouté à votre compte <i>The Elder Scrolls: Legends</i> !<br>La confirmation de votre achat est fournie ci-dessous.<br> Cette information vous sera également envoyée par e-mail sur <span class=\"input_account\"></span> dans les plus brefs délais.",
+            "long":null,
+            "name":"2 paquets de cartes"
+          },
+          {
+            "locale":"it",
+            "short":"<span class=\"dr_itemName\"></span> è stato aggiunto al tuo account di <i>The Elder Scrolls: Legends</i>!<br>La conferma dell&#39;acquisto è fornita di seguito.<br> Queste informazioni saranno inviate tramite email a <span class=\"input_account\"></span> tra poco.",
+            "long":null,
+            "name":"2 buste di carte"
+          },
+          {
+            "locale":"pl",
+            "short":"Zamówiony produkt (<span class=\"dr_itemName\"></span>) został dodany do twojego konta <i>The Elder Scrolls: Legends</i>!<br>Potwierdzenie zakupu zamieszczamy poniżej.<br>Ta informacja zostanie też wkrótce przesłana na adres <span class=\"input_account\"></span>.",
+            "long":null,
+            "name":"2 pakiety kart"
+          },
+          {
+            "locale":"pt_br",
+            "short":"Your <span class=\"dr_itemName\"></span> have been added to your <i>The Elder Scrolls: Legends</i> account!<br>Confirmation of your purchase is provided below.<br> This information will also be emailed to <span class=\"input_account\"></span> shortly.",
+            "long":null,
+            "name":"2 pacotes de cartas"
+          },
+          {
+            "locale":"ru",
+            "short":"<span class=\"dr_itemName\"></span> добавляется к вашей учетной записи <i>The Elder Scrolls: Legends</i>!<br>Подтверждение покупки представлено ниже.<br> Эти сведения также будут отправлены на адрес <span class=\"input_account\"></span>.",
+            "long":null,
+            "name":"2  бустера"
+          }
+        ],
+        "images":[
+          {
+            "id":null,
+            "label":"1",
+            "uri":"//cdn.fatfoogoo.com/uat.pok/images/zenimax.com/gmFv27b8dab18f322acbaf54703240d0.png",
+            "locale":null,
+            "descriptions":null,
+            "attachedFiles":null,
+            "archetype":"image"
+          }
+        ],
+        "videos":[
+
+        ],
+        "monetaryValue":null,
+        "quantity":null,
+        "bundledItems":null
+      }
+    ],
+    "countdown":null,
+    "giftable":"nonGiftable",
+    "descriptions":[
+      {
+        "locale":"en",
+        "short":" ",
+        "long":" ",
+        "name":"2 Card Packs"
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "requestHeaders": {
+    "dnsPixelUrl": "RI1Q0L5MIEARL---0---fatfoogoo---0---208-79-254-163.cfspx.digitalriver.com/images/cleardot.gif"
+  },
+  "thankYouPageType": "SUCCESS_PURCHASE",
+  "amount": "20.0",
+  "amountTotal": "20.0",
+  "sellingEntity": {
+    "entityName": "Digital River International Ireland is authorized reseller and merchant of the products and services offered within this store.",
+    "footer": "Digital River International Ireland is authorized reseller and merchant of the products and services offered within this store.",
+    "text": " Digital River International Ireland "
+  },
+  "tax": "0.0",
+  "authorizationCode": null,
+  "redirectURL": null,
+  "expirationDate": null,
+  "transactionId": "RI1Q0L5MIEARL",
+  "transaction": null
+}

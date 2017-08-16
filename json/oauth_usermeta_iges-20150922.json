@@ -1,0 +1,201 @@
+{
+  "address": [{
+    "type": "billing",
+    "active": true,
+    "accountId": "15624252",
+    "countryIsoCode": "AT",
+    "defaultBilling": true,
+    "validFrom": 1439344596324,
+    "city": "Vienna",
+    "countryCode": "AUT",
+    "phone": null,
+    "zipCode": "1001",
+    "stateCodeSimple": null,
+    "addressStatus": "none",
+    "stateText": null,
+    "validationStatus": "VALIDATION_TURNED_OFF",
+    "defaultShipping": false,
+    "company": null,
+    "birthday": null,
+    "street1": "smithstr 10",
+    "street2": null,
+    "street3": null,
+    "addressDetailId": "4487749",
+    "stateCode": null,
+    "taxId": null,
+    "email": "vchuang@digitalriver.com",
+    "firstName": "Hans",
+    "lastName": "Smith"
+  }],
+  "storeMaintenance": false,
+  "banks": [{
+    "bankId": "10",
+    "bankName": "Bank Austria"
+  }, {
+    "bankId": "11",
+    "bankName": "Erste Bank und Sparkassen"
+  }, {
+    "bankId": "12",
+    "bankName": "Bankhaus Carl Spängler & Co. AG"
+  }, {
+    "bankId": "13",
+    "bankName": "Volksbank Gruppe"
+  }, {
+    "bankId": "15",
+    "bankName": "HYPO Oberösterreich,Salzburg,Steiermark"
+  }, {
+    "bankId": "16",
+    "bankName": "BAWAG P.S.K. AG"
+  }, {
+    "bankId": "23",
+    "bankName": "Ärztebank"
+  }, {
+    "bankId": "24",
+    "bankName": "HYPO NOE Landesbank AG"
+  }, {
+    "bankId": "25",
+    "bankName": "Hypo Landesbank Vorarlberg"
+  }, {
+    "bankId": "26",
+    "bankName": "Hypo Alpe-Adria-Bank AG"
+  }, {
+    "bankId": "27",
+    "bankName": "Investkredit Bank AG"
+  }, {
+    "bankId": "8",
+    "bankName": "Raiffeisen Bankengruppe Österreich"
+  }],
+  "warningCurrencies": null,
+  "recurringBuyer": false,
+  "returningUserShouldEnterCVV": true,
+  "termsConditionsResponse": null,
+  "sellingEntity": {
+    "text": " Digital River International Ireland ",
+    "footer": "Digital River International Ireland is authorized reseller and merchant of the products and services offered within this store.",
+    "entityName": "Digital River International Ireland is authorized reseller and merchant of the products and services offered within this store."
+  },
+  "paymentTypes": [{
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentType": "cpgIBP",
+    "referencedTxId": null,
+    "defaultPayment": false,
+    "addressDetails": null,
+    "paymentGroupType": "newWindow",
+    "lastChange": null,
+    "email": null,
+    "firstName": null,
+    "lastName": null,
+    "referenceId": null,
+    "externalAccountId": null,
+    "externalIdentityId": null
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentType": "cpgSEPADirectDebit",
+    "referencedTxId": null,
+    "defaultPayment": false,
+    "addressDetails": null,
+    "paymentGroupType": "synchronous",
+    "lastChange": null,
+    "email": null,
+    "firstName": null,
+    "lastName": null,
+    "referenceId": null,
+    "externalAccountId": null,
+    "externalIdentityId": null
+  }, {
+    "resetCVV": true,
+    "externalIdentityId": null,
+    "name": "Hans Smith",
+    "type": "MASTERCARD",
+    "expiresMonthForUI": "05",
+    "expiresYearForUI": "2021",
+    "ccexpireYYMM": "2105",
+    "expiresMonth": 5,
+    "cvcCode": null,
+    "expiresYearForApi": "21",
+    "cvcCodeAsString": "",
+    "ccexpireMMYY": "0521",
+    "creditCardExternalId": "943163",
+    "expiresYear": 2021,
+    "active": true,
+    "accountId": "15624252",
+    "scope": "defaultPayment",
+    "paymentType": "cpgCreditCard",
+    "defaultPayment": true,
+    "addressDetails": null,
+    "paymentGroupType": "synchronous",
+    "lastFourDigits": "2290",
+    "paymentInfoExternalId": "943163",
+    "displayValue": "2290",
+    "expiryNotificationDate": null
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentType": "cpgPayPal",
+    "referencedTxId": null,
+    "defaultPayment": false,
+    "addressDetails": null,
+    "paymentGroupType": "newWindow",
+    "lastChange": null,
+    "email": null,
+    "firstName": null,
+    "lastName": null,
+    "referenceId": null,
+    "externalAccountId": null,
+    "externalIdentityId": null
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentType": "cpgPaySafeCard",
+    "referencedTxId": null,
+    "defaultPayment": false,
+    "addressDetails": null,
+    "paymentGroupType": "newWindow",
+    "lastChange": null,
+    "email": null,
+    "firstName": null,
+    "lastName": null,
+    "referenceId": null,
+    "externalAccountId": null,
+    "externalIdentityId": null
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentType": "cpgWebMoney",
+    "referencedTxId": null,
+    "defaultPayment": false,
+    "addressDetails": null,
+    "paymentGroupType": "newWindow",
+    "lastChange": null,
+    "email": null,
+    "firstName": null,
+    "lastName": null,
+    "referenceId": null,
+    "externalAccountId": null,
+    "externalIdentityId": null
+  }],
+  "identities": [],
+  "regions": ["EUR Countries"],
+  "userLocalizationData": {
+    "currencyIdentifier": "EUR",
+    "countryIdentifier": "AUT",
+    "countryOrigin": "none",
+    "alpha2CountryIdentifier": "AT",
+    "language": "en",
+    "referenceId": "cDCcAe77EBC2EAECC7a6D56A1ADEDb3B",
+    "externalAccountId": "cDCcAe77EBC2EAECC7a6D56A1ADEDb3B",
+    "externalIdentityId": null
+  }
+}

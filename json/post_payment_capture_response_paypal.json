@@ -1,0 +1,13 @@
+{
+  "requestHeaders": null,
+  "transactionId": "NLOXR3ICHZMYP",
+  "authorizationCode": null,
+  "thankYouPageType": "SUCCESS_PURCHASE",
+  "transaction": null,
+  "tax": "0.0",
+  "sellingEntity": null,
+  "redirectURL": "https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-0EH4478178643505K&useraction=commit",
+  "expirationDate": null,
+  "amount": "20.0",
+  "amountTotal": "20.0"
+}

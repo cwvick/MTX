@@ -1,0 +1,313 @@
+[{
+  "id": "10",
+  "prices": [{
+    "id": "10USD7bdd31b1-28de-45be-917e-5fb0dcba42c8",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 2000,
+      "decimalAmount": 20.0
+    },
+    "paymentForms": []
+  }],
+  "images": [{
+    "uri": "http://localhost/SVN/battlecry/v1/template/images/img_offer01.png"
+  }],
+  "videos": [],
+  "tags": ["recurring"],
+  "startDate": 1435667820000,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "10",
+    "descriptions": [{
+      "short": "-PC/Mac Only\r\n-Use gold to purchase Virtual good\r\n-Gold can't be traded\r\n-Digital content",
+      "long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis leo nec magna accumsan, eu sagittis sapien varius. Suspendisse ullamcorper dignissim pellentesque.",
+      "name": "Buy 10 Gold",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 1500,
+      "decimalAmount": 15.0,
+      "decimalAmountDisplay": 10.0,
+      "amountDisplay": 1000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "Get 10 Gold Bonus",
+    "long": "Get 20 more Gold when you purchase the Recruit’s Pack",
+    "name": "Bonus + 10 Gold",
+    "locale": "en"
+  }]
+}, {
+  "id": "11",
+  "prices": [{
+    "id": "11USDa44eea5e-4f71-444a-9eaf-5858465a0bbc",
+    "price": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "priceOriginal": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 1500,
+      "decimalAmount": 15.0
+    },
+    "paymentForms": []
+  }],
+  "images": [],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1435668228887,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "10",
+    "descriptions": [{
+      "short": "-PC/Mac Only\r\n-Use gold to purchase Virtual good\r\n-Gold can't be traded\r\n-Digital content",
+      "long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis leo nec magna accumsan, eu sagittis sapien varius. Suspendisse ullamcorper dignissim pellentesque.",
+      "name": "Buy 10 Gold",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 1500,
+      "decimalAmount": 15.0,
+      "decimalAmountDisplay": 10.0,
+      "amountDisplay": 1000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "Get 5 more gold when you purchase this SOLDIER'S PACK",
+    "long": "Get 5 more gold when you purchase this SOLDIER'S PACK",
+    "name": "Bonus+5 Gold",
+    "locale": "en"
+  }]
+}, {
+  "id": "11",
+  "prices": [{
+    "id": "11USDa44eea5e-4f71-444a-9eaf-5858465a0bbc",
+    "price": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "priceOriginal": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 1500,
+      "decimalAmount": 15.0
+    },
+    "paymentForms": []
+  }],
+  "images": [],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1435668228887,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "10",
+    "descriptions": [{
+      "short": "-PC/Mac Only\r\n-Use gold to purchase Virtual good\r\n-Gold can't be traded\r\n-Digital content",
+      "long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis leo nec magna accumsan, eu sagittis sapien varius. Suspendisse ullamcorper dignissim pellentesque.",
+      "name": "Buy 10 Gold",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 1500,
+      "decimalAmount": 15.0,
+      "decimalAmountDisplay": 10.0,
+      "amountDisplay": 1000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "Get 5 more gold when you purchase this SOLDIER'S PACK",
+    "long": "Get 5 more gold when you purchase this SOLDIER'S PACK",
+    "name": "Bonus+5 Gold",
+    "locale": "en"
+  }]
+}, {
+  "id": "11",
+  "prices": [{
+    "id": "11USDa44eea5e-4f71-444a-9eaf-5858465a0bbc",
+    "price": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "priceOriginal": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 1500,
+      "decimalAmount": 15.0
+    },
+    "paymentForms": []
+  }],
+  "images": [],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1435668228887,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "10",
+    "descriptions": [{
+      "short": "-PC/Mac Only\r\n-Use gold to purchase Virtual good\r\n-Gold can't be traded\r\n-Digital content",
+      "long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis leo nec magna accumsan, eu sagittis sapien varius. Suspendisse ullamcorper dignissim pellentesque.",
+      "name": "Buy 10 Gold",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 1500,
+      "decimalAmount": 15.0,
+      "decimalAmountDisplay": 10.0,
+      "amountDisplay": 1000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "Get 5 more gold when you purchase this SOLDIER'S PACK",
+    "long": "Get 5 more gold when you purchase this SOLDIER'S PACK",
+    "name": "Bonus+5 Gold",
+    "locale": "en"
+  }]
+}, {
+  "id": "11",
+  "prices": [{
+    "id": "11USDa44eea5e-4f71-444a-9eaf-5858465a0bbc",
+    "price": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "priceOriginal": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 1500,
+      "decimalAmount": 15.0
+    },
+    "paymentForms": []
+  }],
+  "images": [],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1435668228887,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "10",
+    "descriptions": [{
+      "short": "-PC/Mac Only\r\n-Use gold to purchase Virtual good\r\n-Gold can't be traded\r\n-Digital content",
+      "long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis leo nec magna accumsan, eu sagittis sapien varius. Suspendisse ullamcorper dignissim pellentesque.",
+      "name": "Buy 10 Gold",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 1500,
+      "decimalAmount": 15.0,
+      "decimalAmountDisplay": 10.0,
+      "amountDisplay": 1000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "Get 5 more gold when you purchase this SOLDIER'S PACK",
+    "long": "Get 5 more gold when you purchase this SOLDIER'S PACK",
+    "name": "Bonus+5 Gold",
+    "locale": "en"
+  }]
+}]

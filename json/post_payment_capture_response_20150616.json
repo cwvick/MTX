@@ -1,0 +1,44 @@
+{
+  "transaction": {
+    "id": "YOWG23E5",
+    "details": {
+      "fulfillmentStatus": null,
+      "paymentDate": 1434444964000,
+      "paymentStatus": "initialized"
+    },
+    "account": {
+      "referenceId": "bDEc0C98ae3AEfbECcC6AFEea8CBDA2E",
+      "externalAccountId": "bDEc0C98ae3AEfbECcC6AFEea8CBDA2E",
+      "externalIdentityId": null
+    },
+    "lineItems": [{
+      "descriptions": [{
+        "short": "800",
+        "long": "No Bonus",
+        "name": "800",
+        "locale": "en"
+      }],
+      "id": "51f89206-04c6-49c3-80d4-c25f7fedbaee",
+      "serialCode": null,
+      "quantity": 1,
+      "monetaryValue": {
+        "symbol": "",
+        "isoCode": "Gems",
+        "type": "virtual",
+        "amount": 80000,
+        "decimalAmount": 800
+      },
+      "bundledItems": []
+    }]
+  },
+  "expirationDate": null,
+  "tax": "0.17",
+  "requestHeaders": null,
+  "redirectURL": null,
+  "thankYouPageType": "SUCCESS_PURCHASE",
+  "transactionId": "YOWG23E5",
+  "sellingEntity": null,
+  "amount": "0.83",
+  "amountTotal": "1.0",
+  "authorizationCode": null
+}

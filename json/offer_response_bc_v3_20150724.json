@@ -1,0 +1,391 @@
+[{
+  "id": "gold_pack_200_aus_offer",
+  "prices": [{
+    "id": "gold_pack_200_aus_offerAUD813da979-5307-45e8-8344-b737083b5ce8",
+    "price": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 599,
+      "decimalAmount": 5.99
+    },
+    "priceOriginal": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 599,
+      "decimalAmount": 5.99
+    },
+    "paymentForms": ["cpgCreditCard", "cpgPaySafeCard", "cpgPayPalPreApproved", "cpgPayPal"]
+  }],
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "//cdn.fatfoogoo.com/uat.pok/images/sandbox02.com/iHvu0e2e7d818f321b49225fe845144e.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1436300040000,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "gold_pack_200",
+    "descriptions": [{
+      "locale": "en",
+      "short": "• For PC Only.<br>• Use Gold to purchase virtual items within BATTLECRY.<br>• Gold cannot be traded or transferred.<br>• This is a license for digital content.",
+      "long": "Unsure if Gold is right for you? Then the Recruit's Pack is a perfect way to find out! The Recruit Pack has enough Gold to acquire small customization items as well as offer options when unlocking Skills! Get in the fight today!<br><br>Gold can be used to acquire new Uniforms, Weapons and other goods that set you apart from others!",
+      "name": "Recruit's Pack"
+    }],
+    "images": [{
+      "id": null,
+      "label": "1",
+      "uri": "//cdn.fatfoogoo.com/uat.pok/images/sandbox02.com/iHvu0e2e7d818f321b49225fe845144e.png",
+      "locale": null,
+      "descriptions": null,
+      "attachedFiles": null,
+      "archetype": "image"
+    }],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 20000,
+      "decimalAmount": 200.0,
+      "decimalAmountDisplay": 200.0,
+      "amountDisplay": 20000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "locale": "en",
+    "short": "Start small with the Recruit's Pack.",
+    "long": "Start small with the Recruit's Pack.",
+    "name": "200 Gold"
+  }]
+}, {
+  "id": "gold_pack_660_aus_offer",
+  "prices": [{
+    "id": "gold_pack_660_aus_offerAUDe51a037f-bf1c-4f8d-a990-4ba8ccb5b8b7",
+    "price": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 1799,
+      "decimalAmount": 17.99
+    },
+    "priceOriginal": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 1799,
+      "decimalAmount": 17.99
+    },
+    "paymentForms": ["cpgCreditCard", "cpgPaySafeCard", "cpgPayPalPreApproved", "cpgPayPal"]
+  }],
+  "images": [{
+    "id": null,
+    "label": "2",
+    "uri": "//cdn.fatfoogoo.com/uat.pok/images/sandbox02.com/rYjk3c62e6318f3228112f289a004650.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1436300880000,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "gold_pack660",
+    "descriptions": [{
+      "locale": "en",
+      "short": "• For PC Only.<br>• Use Gold to purchase virtual items within BATTLECRY.<br>• Gold cannot be traded or transferred.<br>• This is a license for digital content.",
+      "long": "Show your support with a purchase of the Soldier's Pack today! The Soldier's Pack contains enough Gold to purchase a new Weapon, or entire Uniform. Use Gold and bring some style into the WarZones!<br><br>Gold can be used to acquire new Uniforms, Weapons and other goods that set you apart from others!",
+      "name": "Soldier's Pack"
+    }],
+    "images": [{
+      "id": null,
+      "label": "2",
+      "uri": "//cdn.fatfoogoo.com/uat.pok/images/sandbox02.com/rYjk3c62e6318f3228112f289a004650.png",
+      "locale": null,
+      "descriptions": null,
+      "attachedFiles": null,
+      "archetype": "image"
+    }],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 60000,
+      "decimalAmount": 600.0,
+      "decimalAmountDisplay": 600.0,
+      "amountDisplay": 60000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "locale": "en",
+    "short": "Includes 60 Bonus Gold with the Soldier's Pack.",
+    "long": "Includes 60 Bonus Gold with the Soldier's Pack.",
+    "name": "600 Gold"
+  }]
+}, {
+  "id": "gold_pack_1500_aus_offer",
+  "prices": [{
+    "id": "gold_pack_1500_aus_offerAUD34303472-3842-41aa-8e1c-207fe5e0e473",
+    "price": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 3599,
+      "decimalAmount": 35.99
+    },
+    "priceOriginal": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 3599,
+      "decimalAmount": 35.99
+    },
+    "paymentForms": ["cpgCreditCard", "cpgPaySafeCard", "cpgPayPalPreApproved", "cpgPayPal"]
+  }],
+  "images": [{
+    "id": null,
+    "label": "3",
+    "uri": "//cdn.fatfoogoo.com/uat.pok/images/sandbox02.com/ukMgc8e323418f32542c5cf4f94d4f53.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1437598168878,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "gold_pack_1500",
+    "descriptions": [{
+      "locale": "en",
+      "short": "• For PC Only.<br>• Use Gold to purchase virtual items within BATTLECRY.<br>• Gold cannot be traded or transferred.<br>• This is a license for digital content.",
+      "long": "Show your commitment to the fight with a purchase of the Veteran's Pack! The Veteran's Pack has enough Gold to purchase both a Weapon and a Uniform for a Warrior, or a large combination of specialty customization items!<br><br>Gold can be used to acquire new Uniforms, Weapons and other goods that set you apart from others!",
+      "name": "Veteran's Pack"
+    }],
+    "images": [{
+      "id": null,
+      "label": "3",
+      "uri": "//cdn.fatfoogoo.com/uat.pok/images/sandbox02.com/ukMgc8e323418f32542c5cf4f94d4f53.png",
+      "locale": null,
+      "descriptions": null,
+      "attachedFiles": null,
+      "archetype": "image"
+    }],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 150000,
+      "decimalAmount": 1500.0,
+      "decimalAmountDisplay": 1500.0,
+      "amountDisplay": 150000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "locale": "en",
+    "short": "Includes 300 Bonus Gold with the Veteran's Pack!",
+    "long": "Includes 300 Bonus Gold with the Veteran's Pack!",
+    "name": "1500 Gold"
+  }]
+}, {
+  "id": "gold_pack_2750_aus_offer",
+  "prices": [{
+    "id": "gold_pack_2750_aus_offerAUDbda25984-35f9-4a84-8b7f-d73bd87efe0a",
+    "price": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 5999,
+      "decimalAmount": 59.99
+    },
+    "priceOriginal": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 5999,
+      "decimalAmount": 59.99
+    },
+    "paymentForms": ["cpgCreditCard", "cpgPaySafeCard", "cpgPayPalPreApproved", "cpgPayPal"]
+  }],
+  "images": [{
+    "id": null,
+    "label": "4",
+    "uri": "//cdn.fatfoogoo.com/uat.pok/images/sandbox02.com/dqSIb62863018f32630991c493c99ebc.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1436301960000,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "gold_pack_2750",
+    "descriptions": [{
+      "locale": "en",
+      "short": "• For PC Only.<br>• Use Gold to purchase virtual items within BATTLECRY.<br>• Gold cannot be traded or transferred.<br>• This is a license for digital content.",
+      "long": "Expand your options with a purchase of the General's Pack! Containing enough Gold to purchase Weapons, Uniforms and additional customization options, the General's Pack can help you build the Warrior you have always wanted to.<br><br>Gold can be used to acquire new Uniforms, Weapons and other goods that set you apart from others!",
+      "name": "General's Pack"
+    }],
+    "images": [{
+      "id": null,
+      "label": "4",
+      "uri": "//cdn.fatfoogoo.com/uat.pok/images/sandbox02.com/dqSIb62863018f32630991c493c99ebc.png",
+      "locale": null,
+      "descriptions": null,
+      "attachedFiles": null,
+      "archetype": "image"
+    }],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 275000,
+      "decimalAmount": 2750.0,
+      "decimalAmountDisplay": 2750.0,
+      "amountDisplay": 275000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "locale": "en",
+    "short": "Includes 500 Bonus Gold with the General's Pack.",
+    "long": "Includes 500 Bonus Gold with the General's Pack.",
+    "name": "2750 Gold"
+  }]
+}, {
+  "id": "gold_pack_6000_aus_offer",
+  "prices": [{
+    "id": "gold_pack_6000_aus_offerAUDa4293122-4365-4b7f-8837-e6b8b663ca75",
+    "price": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 11999,
+      "decimalAmount": 119.99
+    },
+    "priceOriginal": {
+      "symbol": "AUD",
+      "isoCode": "AUD",
+      "type": "real",
+      "amount": 11999,
+      "decimalAmount": 119.99
+    },
+    "paymentForms": ["cpgCreditCard", "cpgPaySafeCard", "cpgPayPalPreApproved", "cpgPayPal"]
+  }],
+  "images": [{
+    "id": null,
+    "label": "5",
+    "uri": "//cdn.fatfoogoo.com/uat.pok/images/sandbox02.com/nKJT7ec7d9018f3247ae395779c29ff8.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": ["recurring"],
+  "startDate": 1436303040000,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "gold_pack_6000",
+    "descriptions": [{
+      "locale": "en",
+      "short": "• For PC Only.<br>• Use Gold to purchase virtual items within BATTLECRY.<br>• Gold cannot be traded or transferred.<br>• This is a license for digital content.",
+      "long": "The Elite Pack is a great choice for only the most discerning player of BATTLECRY. Use the Gold in the Elite Pack to acquire the widest range of options for your Warriors. Continue your support today!<br><br>Gold can be used to acquire new Uniforms, Weapons and other goods that set you apart from others!",
+      "name": "Elite Pack"
+    }],
+    "images": [{
+      "id": null,
+      "label": "5",
+      "uri": "//cdn.fatfoogoo.com/uat.pok/images/sandbox02.com/nKJT7ec7d9018f3247ae395779c29ff8.png",
+      "locale": null,
+      "descriptions": null,
+      "attachedFiles": null,
+      "archetype": "image"
+    }],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 600000,
+      "decimalAmount": 6000.0,
+      "decimalAmountDisplay": 6000.0,
+      "amountDisplay": 600000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "locale": "en",
+    "short": "Includes 600 Bonus Gold with the Elite Pack for dedicated Warriors.",
+    "long": "Includes 600 Bonus Gold with the Elite Pack for dedicated Warriors.",
+    "name": "6000 Gold"
+  }]
+}]

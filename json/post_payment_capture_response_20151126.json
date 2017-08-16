@@ -1,0 +1,13 @@
+{
+  "requestHeaders": null,
+  "transactionId": "QVF832B3",
+  "expirationDate": null,
+  "amount": "6999.99",
+  "amountTotal": "6999.99",
+  "authorizationCode": "4620613789",
+  "thankYouPageType": "SUCCESS_PURCHASE",
+  "sellingEntity": null,
+  "tax": "0.0",
+  "redirectURL": "https://cdn.fatfoogoo.com/uat.pok/store/client4.com/gw2/v3/en/submitForm.html?submit_form=%3Cform%20name%3D%22IBPBankRedirect%22%20action%3D%22http%3A%2F%2Fibptest.netgiro.com%3A8086%2Fibp%2Fyandex%2Fpayment%22%20method%3D%22POST%22%3E%0A%3Cinput%20type%3D%22hidden%22%20name%3D%22shopId%22%20value%3D%2213158%22%20%2F%3E%20%3Cinput%20type%3D%22hidden%22%20name%3D%22scid%22%20value%3D%224027%22%20%2F%3E%20%3Cinput%20type%3D%22hidden%22%20name%3D%22sum%22%20value%3D%226999.99%22%20%2F%3E%20%3Cinput%20type%3D%22hidden%22%20name%3D%22customerNumber%22%20value%3D%22nikumar%40digitalriver.com%22%2F%3E%20%3Cinput%20type%3D%22hidden%22%20name%3D%22orderNumber%22%20value%3D%224620613789%22%20%2F%3E%20%3Cinput%20type%3D%22hidden%22%20name%3D%22shopSuccessURL%22%20value%3D%22https%3A%2F%2Fcdn.fatfoogoo.com%2Fuat.pok%2Fstore%2Fclient4.com%2Fgw2%2Fv3%2Fen%2Freturn.html%3FtransactionId%3DQVF832B3%26client%3Dclient4.com%26otoken%3D8f54e73f-2e6c-483e-a820-0fc51376cf7e%26paymentType%3DcpgYandexMoney%22%20%2F%3E%20%3Cinput%20type%3D%22hidden%22%20name%3D%22shopArticleId%22%20value%3D%2227078%22%20%2F%3E%20%3Cinput%20type%3D%22hidden%22%20name%3D%22shopFailURL%22%20value%3D%22https%3A%2F%2Fcdn.fatfoogoo.com%2Fuat.pok%2Fstore%2Fclient4.com%2Fgw2%2Fv3%2Fen%2Freturn.html%3FtransactionId%3DQVF832B3%26client%3Dclient4.com%26otoken%3D8f54e73f-2e6c-483e-a820-0fc51376cf7e%26paymentType%3DcpgYandexMoney%22%20%2F%3E%20%3Cinput%20type%3D%22hidden%22%20name%3D%22MyField%22%20value%3D%222904061402%22%20%2F%3E%0A%3Cinput%20type%3D%22image%22%20src%3D%22images%2Fproceed.png%22%20%2F%3E%0A%3C%2Fform%3E",
+  "transaction": null
+}

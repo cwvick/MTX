@@ -1,0 +1,13 @@
+{
+  "requestHeaders": null,
+  "tax": "16.67",
+  "redirectURL": null,
+  "sellingEntity": null,
+  "expirationDate": null,
+  "authorizationCode": null,
+  "thankYouPageType": "SUCCESS_PURCHASE",
+  "amount": "83.32",
+  "amountTotal": "99.99",
+  "transactionId": "UTTQA21B",
+  "transaction": null
+}

@@ -1,0 +1,60 @@
+[{
+  "id": "Vive_Content_Offer_QA",
+  "prices": [{
+    "id": "Vive_Content_Offer_QAUSDce340ba9-caf7-4068-af36-beff452f2abc",
+    "price": {
+      "symbol": "",
+      "isoCode": "EUR",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 1410.0
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "paymentForms": []
+  }],
+  "images": [{
+
+  }],
+  "videos": [],
+  "tags": [
+    "new",
+    "recurring"
+  ],
+  "startDate": 1447240615103,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "Vive_Content_Item_QA",
+    "descriptions": [{
+      "short": "Vive_Content_Item_QA_Title Description",
+      "long": null,
+      "name": "Vive_Content_Item_QA_Title",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "Vive_Content_Offer_QA_Title_Description",
+    "long": "Vive_Content_Offer_QA_Title_Description",
+    "name": "Vive_Content_Offer_QA_Title",
+    "locale": "en"
+  }]
+}]

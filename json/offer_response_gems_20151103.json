@@ -1,0 +1,223 @@
+[{
+    "id": "sdfsf",
+    "prices": [{
+        "id": "sdfsfgemcard8a1f7945-f121-44b9-a9c2-c455361a7989",
+        "currency": "gemcard",
+        "price": 23.0,
+        "priceOriginal": 23.0
+    }],
+    "name": "Test-123-item",
+    "shortDescription": "Test-123-item",
+    "longDescription": "Test-123-item test for perf",
+    "images": [],
+    "tags": [],
+    "startDate": 1439397206401,
+    "endDate": null,
+    "deliveryDate": null,
+    "subscription": null,
+    "items": [{
+        "id": "123000",
+        "name": "Test-123-item",
+        "descriptions": [{
+            "short": "Test-123-item test for perf",
+            "long": null,
+            "name": "Test-123-item",
+            "locale": "en"
+        }],
+        "shortDescription": "Test-123-item",
+        "longDescription": "Test-123-item test for perf",
+        "images": [],
+        "quantity": null
+    }],
+    "paymentForms": []
+}, {
+    "id": "800Gems",
+    "prices": [{
+        "id": "800GemsRUBab3e0d3e-6aa8-49bc-9c0f-e877dc476748",
+        "currency": "RUB",
+        "price": 800.0,
+        "priceOriginal": 800.0
+    }, {
+        "id": "800GemsUSDf8c1285e-a828-4799-897f-7687540058dd",
+        "currency": "USD",
+        "price": 10.0,
+        "priceOriginal": 10.0
+    }, {
+        "id": "800Gemstest12345",
+        "currency": null,
+        "price": 0.0,
+        "priceOriginal": 0.0
+    }],
+    "name": "800",
+    "shortDescription": "800",
+    "longDescription": "No Bonus",
+    "images": [],
+    "tags": [],
+    "startDate": 1384526160000,
+    "endDate": 3184526160000,
+    "deliveryDate": null,
+    "subscription": null,
+    "items": [{
+        "id": "1",
+        "name": "800",
+        "descriptions": [{
+            "short": "No Bonus",
+            "long": null,
+            "name": "800",
+            "locale": "en"
+        }],
+        "shortDescription": "800",
+        "longDescription": "No Bonus",
+        "images": [],
+        "quantity": null
+    }],
+    "paymentForms": []
+}, {
+    "id": "1600Gems",
+    "prices": [{
+        "id": "1600GemsRUB936ab51f-0ab0-44f4-90a3-7ed6e9ef2139",
+        "currency": "RUB",
+        "price": 1600.0,
+        "priceOriginal": 1600.0
+    }, {
+        "id": "1600GemsUSD26114581-a894-49fa-b2d9-70d9a8b0bd13",
+        "currency": "USD",
+        "price": 20.0,
+        "priceOriginal": 20.0
+    }],
+    "name": "1600",
+    "shortDescription": "1600",
+    "longDescription": "No Bonus",
+    "images": [],
+    "tags": [],
+    "startDate": 1384526214271,
+    "endDate": 3184526214271,
+    "deliveryDate": null,
+    "subscription": null,
+    "items": [{
+        "id": "2",
+        "name": "1600",
+        "descriptions": [{
+            "short": "No Bonus",
+            "long": null,
+            "name": "1600",
+            "locale": "en"
+        }],
+        "shortDescription": "1600",
+        "longDescription": "No Bonus",
+        "images": [],
+        "quantity": null
+    }],
+    "paymentForms": []
+}, {
+    "id": "2800Gems",
+    "prices": [{
+        "id": "2800GemsUSD9f5b0302-35b4-40c0-a02c-cc9a93867a7c",
+        "currency": "USD",
+        "price": 35.0,
+        "priceOriginal": 35.0
+    }, {
+        "id": "2800GemsRUB61dc4167-9351-4e7d-9b4f-0485897b8dd8",
+        "currency": "RUB",
+        "price": 2800.0,
+        "priceOriginal": 2800.0
+    }],
+    "name": "2800",
+    "shortDescription": "2800",
+    "longDescription": "No Bonus",
+    "images": [],
+    "tags": [],
+    "startDate": 1384526214439,
+    "endDate": 3184526214439,
+    "deliveryDate": null,
+    "subscription": null,
+    "items": [{
+        "id": "3",
+        "name": "2800",
+        "descriptions": [{
+            "short": "No Bonus",
+            "long": null,
+            "name": "2800",
+            "locale": "en"
+        }],
+        "shortDescription": "2800",
+        "longDescription": "No Bonus",
+        "images": [],
+        "quantity": null
+    }],
+    "paymentForms": []
+}, {
+    "id": "4000Gems",
+    "prices": [{
+        "id": "4000GemsRUBc0faac35-c1be-4ce6-9350-2a01b6c8c38e",
+        "currency": "RUB",
+        "price": 4000.0,
+        "priceOriginal": 4000.0
+    }, {
+        "id": "4000GemsUSDe95f5d2e-2922-4fc2-888d-a4a123f29868",
+        "currency": "USD",
+        "price": 50.0,
+        "priceOriginal": 50.0
+    }],
+    "name": "test",
+    "shortDescription": "test",
+    "longDescription": "test",
+    "images": [],
+    "tags": [],
+    "startDate": 1384526214638,
+    "endDate": 3184526214638,
+    "deliveryDate": null,
+    "subscription": null,
+    "items": [{
+        "id": "4",
+        "name": "test",
+        "descriptions": [{
+            "short": "No Bonus",
+            "long": null,
+            "name": "4000",
+            "locale": "en"
+        }],
+        "shortDescription": "test",
+        "longDescription": "test",
+        "images": [],
+        "quantity": null
+    }],
+    "paymentForms": []
+}, {
+    "id": "8000Gems",
+    "prices": [{
+        "id": "8000GemsRUBa3258428-c591-490e-a541-e073d6ae4890",
+        "currency": "RUB",
+        "price": 99999.0,
+        "priceOriginal": 8000.0
+    }, {
+        "id": "8000GemsUSDe53325a2-9405-4137-b636-aa5c6e19b3d1",
+        "currency": "USD",
+        "price": 100.0,
+        "priceOriginal": 100.0
+    }],
+    "name": "8000",
+    "shortDescription": "8000",
+    "longDescription": "No Bonus",
+    "images": [],
+    "tags": [],
+    "startDate": 1384526214826,
+    "endDate": 3184526214826,
+    "deliveryDate": null,
+    "subscription": null,
+    "items": [{
+        "id": "5",
+        "name": "8000",
+        "descriptions": [{
+            "short": "No Bonus",
+            "long": null,
+            "name": "8000",
+            "locale": "en"
+        }],
+        "shortDescription": "8000",
+        "longDescription": "No Bonus",
+        "images": [],
+        "quantity": null
+    }],
+    "paymentForms": []
+}]

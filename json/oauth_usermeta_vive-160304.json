@@ -1,0 +1,195 @@
+{
+  "address": [
+    {
+      "type": "billing",
+      "lastName": "Morgan",
+      "defaultBilling": true,
+      "email": "nihirdas@gmail.com",
+      "countryCode": "BRA",
+      "stateCode": "BRA-MS",
+      "stateText": "BRA-MS",
+      "localizedCountryDetails": null,
+      "zipCode": "90210",
+      "company": null,
+      "validationStatus": "VALIDATION_TURNED_OFF",
+      "street2": null,
+      "addressStatus": "none",
+      "birthday": null,
+      "street3": null,
+      "defaultShipping": false,
+      "phone": null,
+      "taxId": "222.333.666-40",
+      "active": true,
+      "accountId": "15630123",
+      "stateCodeSimple": "AL",
+      "street1": "Homicide,  PD",
+      "firstName": "Dexter",
+      "city": "Beverly Hills",
+      "addressDetailId": "4498885",
+      "validFrom": 1456240478792
+    }
+  ],
+  "termsConditionsResponse": null,
+  "storeMaintenance": false,
+  "banks": [
+    {
+      "bankName": "Bank Austria",
+      "bankId": "10"
+    },
+    {
+      "bankName": "Erste Bank und Sparkassen",
+      "bankId": "11"
+    },
+    {
+      "bankName": "Bankhaus Carl Spängler & Co. AG",
+      "bankId": "12"
+    },
+    {
+      "bankName": "Volksbank Gruppe",
+      "bankId": "13"
+    },
+    {
+      "bankName": "Hypo Tirol Bank AG",
+      "bankId": "14"
+    },
+    {
+      "bankName": "HYPO Oberösterreich,Salzburg,Steiermark",
+      "bankId": "15"
+    },
+    {
+      "bankName": "BAWAG P.S.K. AG",
+      "bankId": "16"
+    }
+  ],
+  "returningUserShouldEnterCVV": false,
+  "recurringBuyer": true,
+  "warningCurrencies": null,
+  "identities": [],
+  "userLocalizationData": {
+    "currencyIdentifier": "USD",
+    "countryIdentifier": "USA",
+    "countryOrigin": "none",
+    "alpha2CountryIdentifier": "US",
+    "language": "en",
+    "localizedCountryInfo": null,
+    "externalIdentityId": null,
+    "externalAccountId": "nihirdasxcvby",
+    "referenceId": "nihirdasxcvby"
+  },
+  "regions": [],
+  "paymentTypes": [
+    {
+      "referencedBillingInfoExternalId": null,
+      "referenceEntityId": null,
+      "referenceUrl": null,
+      "defaultPayment": false,
+      "scope": null,
+      "addressDetails": null,
+      "paymentType": "cpgPaySafeCard",
+      "lastName": null,
+      "email": null,
+      "paymentGroupType": "newWindow",
+      "referencedTxId": null,
+      "lastChange": null,
+      "firstName": null,
+      "externalIdentityId": null,
+      "externalAccountId": null,
+      "referenceId": null
+    },
+    {
+      "signature": null,
+      "scope": "defaultPayment",
+      "accountId": "10479959",
+      "externalIdentityId": null,
+      "defaultPayment": false,
+      "paymentType": "cpgIBP",
+      "bankBillingInfoExternalId": "13383",
+      "bankBranchNumber": "86",
+      "bankAccountHolder": null,
+      "displayValue": "",
+      "bankName": "Sofortüberweisung",
+      "driversLicenseEnding": null,
+      "driversLicenseState": null,
+      "lastChange": null,
+      "paymentInfoExternalId": "13383",
+      "driversLicenseStateTwoLettersAlphaCode": null
+    },
+    {
+      "referencedBillingInfoExternalId": null,
+      "referenceEntityId": null,
+      "referenceUrl": null,
+      "defaultPayment": false,
+      "scope": null,
+      "addressDetails": null,
+      "paymentType": "cpgPayPalPreApproved",
+      "lastName": null,
+      "email": null,
+      "paymentGroupType": "newWindow",
+      "referencedTxId": null,
+      "lastChange": null,
+      "firstName": null,
+      "externalIdentityId": null,
+      "externalAccountId": null,
+      "referenceId": null
+    },
+    {
+      "resetCVV": true,
+      "externalIdentityId": null,
+      "name": "Nihir Kumar",
+      "type": "VISA",
+      "expiresMonthForUI": "11",
+      "expiresYearForApi": "19",
+      "expiresYearForUI": "2019",
+      "cvcCode": null,
+      "ccexpireYYMM": "1911",
+      "expiresMonth": 11,
+      "expiresYear": 2019,
+      "ccexpireMMYY": "1119",
+      "creditCardExternalId": "947837",
+      "cvcCodeAsString": "",
+      "defaultPayment": true,
+      "expiryNotificationDate": null,
+      "scope": "defaultPayment",
+      "addressDetails": {
+        "type": "billing",
+        "lastName": "Morgan",
+        "defaultBilling": true,
+        "email": "nihirdas@gmail.com",
+        "countryCode": "BRA",
+        "stateCode": "BRA-DF",
+        "stateText": "BRA-DF",
+        "localizedCountryDetails": null,
+        "zipCode": "90210",
+        "company": null,
+        "validationStatus": "VALIDATION_TURNED_OFF",
+        "street2": null,
+        "addressStatus": "none",
+        "birthday": null,
+        "street3": null,
+        "defaultShipping": false,
+        "phone": null,
+        "taxId": "222.333.666-38",
+        "active": true,
+        "accountId": "15630123",
+        "stateCodeSimple": "AL",
+        "street1": "Homicide,  PD",
+        "firstName": "Dexter",
+        "city": "Beverly Hills",
+        "addressDetailId": "4498885",
+        "validFrom": 1456240478792
+      },
+      "paymentType": "cpgCreditCard",
+      "displayValue": "3324",
+      "paymentGroupType": "synchronous",
+      "paymentInfoExternalId": "947837",
+      "lastFourDigits": "3324",
+      "active": true,
+      "accountId": "15630123"
+    }
+  ],
+  "sellingEntity": {
+    "text": " Digital River Inc. ",
+    "footer": "Digital River Inc. is authorized reseller and merchant of the products and services offered within this store.",
+    "entityName": "Digital River Inc. is authorized reseller and merchant of the products and services offered within this store."
+  }
+}

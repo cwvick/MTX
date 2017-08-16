@@ -1,0 +1,47 @@
+[{
+  "id": "c5027664-f39b-4e6c-a105-4082b17f3787",
+  "prices": [{
+    "id": "c5027664-f39b-4e6c-a105-4082b17f3787USD94df7032-eff5-48f8-9442-067ee0adea22",
+    "currency": "USD",
+    "price": 10.0,
+    "priceOriginal": 10.0
+  }],
+  "name": "Elite status",
+  "shortDescription": "Elite status",
+  "longDescription": "Elite status",
+  "images": [
+
+  ],
+  "tags": [
+
+  ],
+  "startDate": 1479117152481,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": "sub-item-no-trial",
+    "duration": null,
+    "trialDuration": 0,
+    "billingInterval": 1,
+    "recurring": true
+  },
+  "items": [{
+    "id": "sub-item-no-trial",
+    "name": "Elite status",
+    "descriptions": [{
+      "locale": "en",
+      "short": "Elite status",
+      "long": null,
+      "name": "Elite status"
+    }],
+    "shortDescription": "Elite status",
+    "longDescription": "Elite status",
+    "images": [
+
+    ],
+    "quantity": null
+  }],
+  "paymentForms": [
+
+  ]
+}]

@@ -1,0 +1,28 @@
+{
+  "addressId": "4488446",
+  "bankBillingInfoId": "108318",
+  "modifiedAddress": null,
+  "mandate": {
+    "bankBillingInfoId": 108318,
+    "mandateUniqueReference": "4f3a04be8fde43b1afad6249e56b7aa2",
+    "creditorCompanyInfo": "Digital River World Payments AB, Textilgatan 31, 120 30 Stockholm, Sweden",
+    "creditorCompanyId": "GB95DRWSDDCHAS00000041311043",
+    "debtorName": "Theo Okafor",
+    "mandateSignatureEmail": null,
+    "initialTransactionId": null,
+    "mandateDate": 1441097555825,
+    "mandateType": "RECURRING",
+    "mandateState": "NEW",
+    "expiredAtDate": null,
+    "debtorIBAN": "3201",
+    "debtorBankBIC": "ABAGATWWWWW",
+    "languageTwoLetters": "en",
+    "debtorCountry": "Germany",
+    "debtorAddress": "Bremenstrasse 50",
+    "debtorPostalCode": "12211",
+    "debtorCity": "Bremen",
+    "clientConfigId": null
+  },
+  "creditCardId": null,
+  "referenceBillingInfoId": null
+}

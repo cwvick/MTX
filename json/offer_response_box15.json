@@ -1,0 +1,116 @@
+[
+  {
+    "id": "LunchBox_15",
+    "prices": [
+      {
+        "id": "FA4IAPPC0003USD5e9fcded-c4d9-4cdb-afe2-06a8ca88f320",
+        "price": {
+          "symbol": "USD",
+          "isoCode": "USD",
+          "type": "real",
+          "amount": 199,
+          "decimalAmount": 1.99
+        },
+        "priceOriginal": {
+          "symbol": "USD",
+          "isoCode": "USD",
+          "type": "real",
+          "amount": 999,
+          "decimalAmount": 9.99
+        },
+        "paymentForms": []
+      }
+    ],
+    "images": [
+      {
+        "id": null,
+        "label": "1",
+        "uri": "//cdn.fatfoogoo.com/uat.pok/images/zenimax.com/jQlc28554f218f3235815fc202b2dae3.png",
+        "locale": null,
+        "descriptions": null,
+        "attachedFiles": null,
+        "archetype": "image"
+      }
+    ],
+    "videos": [],
+    "tags": [],
+    "startDate": 1484854397292,
+    "endDate": null,
+    "deliveryDate": null,
+    "subscription": {
+      "id": null,
+      "duration": null,
+      "trialDuration": null,
+      "billingInterval": null,
+      "recurring": null
+    },
+    "items": [
+      {
+        "id": "FA4IAPPC0003",
+        "descriptions": [
+          {
+            "locale": "en",
+            "short": "LunchBox_15",
+            "long": null,
+            "name": "Bundle of 15 Lunchboxes"
+          },
+          {
+            "locale": "de",
+            "short": "LunchBox_15",
+            "long": null,
+            "name": "15-Lunchboxen-Paket"
+          },
+          {
+            "locale": "es",
+            "short": "LunchBox_15",
+            "long": null,
+            "name": "Paquete de 15 tarteras"
+          },
+          {
+            "locale": "fr",
+            "short": "LunchBox_15",
+            "long": null,
+            "name": "Pack de 15 boîtes à sandwich"
+          },
+          {
+            "locale": "it",
+            "short": "LunchBox_15",
+            "long": null,
+            "name": "Pacchetto da 15 cestini"
+          },
+          {
+            "locale": "ru",
+            "short": "LunchBox_15",
+            "long": null,
+            "name": "Комплект из 15 ланчбоксов"
+          }
+        ],
+        "images": [
+          {
+            "id": null,
+            "label": "1",
+            "uri": "//cdn.fatfoogoo.com/uat.pok/images/zenimax.com/jQlc28554f218f3235815fc202b2dae3.png",
+            "locale": null,
+            "descriptions": null,
+            "attachedFiles": null,
+            "archetype": "image"
+          }
+        ],
+        "videos": [],
+        "monetaryValue": null,
+        "bundledItems": null,
+        "quantity": null
+      }
+    ],
+    "countdown": null,
+    "giftable": "nonGiftable",
+    "descriptions": [
+      {
+        "locale": "en",
+        "short": "LunchBox_15",
+        "long": "LunchBox_15",
+        "name": "Bundle of 15 Lunchboxes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "requestHeaders": {
+    "dnsPixelUrl": "QVF832B3---0---fatfoogoo---0---208-79-254-164.cfspx.digitalriver.com/images/cleardot.gif"
+  },
+  "transactionId": "QVF832B3",
+  "expirationDate": null,
+  "amount": "6999.99",
+  "amountTotal": "6999.99",
+  "authorizationCode": null,
+  "thankYouPageType": "SUCCESS_PURCHASE",
+  "sellingEntity": {
+    "footer": "Digital River International Ireland is authorized reseller and merchant of the products and services offered within this store.",
+    "text": " Digital River International Ireland ",
+    "entityName": "Digital River International Ireland is authorized reseller and merchant of the products and services offered within this store."
+  },
+  "tax": "0.0",
+  "redirectURL": null,
+  "transaction": null
+}

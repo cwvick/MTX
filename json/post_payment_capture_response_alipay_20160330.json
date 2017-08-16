@@ -1,0 +1,17 @@
+{
+  "requestHeaders": null,
+  "transactionId": "1UFDGWTMFNDJPD",
+  "transaction": null,
+  "authorizationCode": null,
+  "currencyIdentifier": null,
+  "sellingEntity": null,
+  "tax": "0.0",
+  "expirationDate": null,
+  "taxOnTop": false,
+  "amount": "1000.0",
+  "amountOriginal": null,
+  "amountTotal": "1000.0",
+  "freeText": "尽情享受！",
+  "redirectURL": "https://openapi.alipaydev.com/gateway.do?_input_charset=UTF-8&agent=drtestAgent&currency=USD&notify_url=https%3A%2F%2Fcpgsys.digitalriver.com%2Falipay&out_trade_no=2944595202&partner=2088101122136241&return_url=https%3A%2F%2Fcdn.fatfoogoo.com%2Fuat.pok%2Fstore%2Fhtc.com%2FVIVEContent%2Fv1%2Fzh_cn%2Freturn.html%3FtransactionId%3D1UFDGWTMFNDJPD%26client%3Dhtc.com%26otoken%3D3979127a-c29a-4931-ac07-8ef7f3898420%26paymentType%3DcpgAlipay&rmb_fee=1000.00&seller_id=sandboxUSD&seller_name=DR+USD&service=create_forex_trade&sign=96e95f1a5188c5aa46536c84b0457573&sign_type=MD5&subject=DRI*htc&supplier=DR+USD+%E5%A5%BD%E8%AE%A2%E7%BD%91",
+  "thankYouPageType": "SUCCESS_PURCHASE"
+}

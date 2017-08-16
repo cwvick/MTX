@@ -1,0 +1,354 @@
+[{
+  "id": "Cardinal100Offer",
+  "prices": [{
+    "id": "Cardinal100OfferUSDce3aab57-d4ea-4767-9c27-5d912be1e883",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "paymentForms": []
+  }],
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "//cdn.fatfoogoo.com/qa.pok/images/zenimax.com/jhkh34901fb18f36e6a82a2905dfd4dc.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1438248881599,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "Cardinal100",
+    "descriptions": [{
+      "short": "Get 100 Gold",
+      "long": null,
+      "name": "100 Gold",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": {
+      "symbol": "",
+      "isoCode": "gold",
+      "type": "virtual",
+      "amount": 10000,
+      "decimalAmount": 100.0,
+      "decimalAmountDisplay": 100.0,
+      "amountDisplay": 10000
+    },
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "Buy This to get 100 Gold",
+    "long": "Buy This to get 100 Gold",
+    "name": "100 Gold Offer",
+    "locale": "en"
+  }]
+}, {
+  "id": "e5a67d21-4ce7-4d8c-8bf8-0cc38c85821d",
+  "prices": [{
+    "id": "e5a67d21-4ce7-4d8c-8bf8-0cc38c85821dEUR01d76285-62d5-41eb-8d72-e7b7e12fd1e1",
+    "price": {
+      "symbol": "EUR",
+      "isoCode": "EUR",
+      "type": "real",
+      "amount": 1100,
+      "decimalAmount": 11.0
+    },
+    "priceOriginal": {
+      "symbol": "EUR",
+      "isoCode": "EUR",
+      "type": "real",
+      "amount": 1100,
+      "decimalAmount": 11.0
+    },
+    "paymentForms": []
+  }, {
+    "id": "e5a67d21-4ce7-4d8c-8bf8-0cc38c85821dUSD97fce197-4ffc-47ad-87eb-02344d6741de",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "paymentForms": []
+  }],
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "//cdn.fatfoogoo.com/qa.pok/images/zenimax.com/yyMuf8f3a7318f364912615c140c7d07.jpg",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1438938060000,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "123000",
+    "descriptions": [{
+      "short": "ItemTest123 test for new catalog for cardinal",
+      "long": null,
+      "name": "ItemTest123",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "unit test for offer quantity limitation",
+    "long": "unit test for offer quantity limitation",
+    "name": "Teo-offer-test3",
+    "locale": "en"
+  }]
+}, {
+  "id": "OfferPage_1",
+  "prices": [{
+    "id": "OfferPage_1USD036445e9-fbc2-49d9-ab5f-cca5b634d50e",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 100,
+      "decimalAmount": 1.0
+    },
+    "paymentForms": []
+  }],
+  "images": [],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1438171678157,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "OfferPage_1",
+    "descriptions": [{
+      "short": "OfferPage_1",
+      "long": "OfferPage_1",
+      "name": "OfferPage_1",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "OfferPage_1",
+    "long": "OfferPage_1",
+    "name": "OfferPage_1",
+    "locale": "en"
+  }]
+}, {
+  "id": "b548b070-308d-11e5-a2cb-0800200c9a66",
+  "prices": [{
+    "id": "b548b070-308d-11e5-a2cb-0800200c9a66USD39c6e8d0-2644-43c0-9328-8a0aa5907ce7",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 299,
+      "decimalAmount": 2.99
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 299,
+      "decimalAmount": 2.99
+    },
+    "paymentForms": ["cpgCreditCard", "cpgPayPalPreApproved"]
+  }],
+  "images": [],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1439198005283,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "b548b070-308d-11e5-a2cb-0800200c9a66",
+    "descriptions": [{
+      "short": "2 Booster Packs",
+      "long": null,
+      "name": "2 Booster Packs",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "2 Booster Packs",
+    "long": "2 Booster Packs",
+    "name": "2 Booster Packs",
+    "locale": "en"
+  }]
+}, {
+  "id": "f9e484fe-ad8f-4473-aec2-3727ff02ea71",
+  "prices": [{
+    "id": "f9e484fe-ad8f-4473-aec2-3727ff02ea71USD19ceeeb6-69a0-43a8-ab13-c3d57e34f285",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "paymentForms": []
+  }, {
+    "id": "f9e484fe-ad8f-4473-aec2-3727ff02ea71EUR44c03e25-c579-40e3-9171-6f8d7ba8cb50",
+    "price": {
+      "symbol": "EUR",
+      "isoCode": "EUR",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "priceOriginal": {
+      "symbol": "EUR",
+      "isoCode": "EUR",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "paymentForms": []
+  }, {
+    "id": "f9e484fe-ad8f-4473-aec2-3727ff02ea71coupon_upload_perf_zenimax",
+    "price": {
+      "symbol": "",
+      "isoCode": null,
+      "type": "coupon",
+      "amount": 0,
+      "decimalAmount": 0.0
+    },
+    "priceOriginal": {
+      "symbol": "",
+      "isoCode": null,
+      "type": "coupon",
+      "amount": 0,
+      "decimalAmount": 0.0
+    },
+    "paymentForms": []
+  }],
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "//cdn.fatfoogoo.com/qa.pok/images/zenimax.com/noZHd1563f618f360ed751130a6ccc10.jpg",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": ["new", "recurring"],
+  "startDate": 1438768980000,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "123000",
+    "descriptions": [{
+      "short": "ItemTest123 test for new catalog for cardinal",
+      "long": null,
+      "name": "ItemTest123",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": 3,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "countdown": null,
+  "descriptions": [{
+    "short": "Teo-offer-test2 testing",
+    "long": "Teo-offer-test2 testing",
+    "name": "Teo-offer-test2",
+    "locale": "en"
+  }]
+}]
