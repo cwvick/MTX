@@ -1104,13 +1104,14 @@ var bindEventHandler = function() {
   //       }
   //     }
   //   }
-
-    var cNumber = $(this).val().split("-").join("");
-    if (cNumber.length > 0) {
-      var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
-      $(this).val(cNumberWithHyphen);
-    } else {
-      $(this).val('');
+    if (event.keyCode != 229) {
+      var cNumber = $(this).val().split("-").join("");
+      if (cNumber.length > 0) {
+        var cNumberWithHyphen = cNumber.match(new RegExp('.{1,4}', 'g')).join("-");
+        $(this).val(cNumberWithHyphen);
+      } else {
+        $(this).val('');
+      }
     }
   });
 
